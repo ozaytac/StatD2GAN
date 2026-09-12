@@ -1,0 +1,36 @@
+\begin{table}
+\caption{Sequence-level temperature statistics (mean over 5 seeds). seq\_mean\_sd: SD of per-sequence means (seasonal diversity); within\_sd: mean within-sequence SD. Pooled metrics are blind to both.}
+\label{tab:seq_level}
+\begin{tabular}{llrrr}
+\toprule
+ &  & seq\_mean\_sd & within\_sd & step\_diff \\
+loc & model &  &  &  \\
+\midrule
+\multirow[t]{4}{*}{ankara} & rcgan & 0.160000 & 2.310000 & 0.210000 \\
+ & real\_val & 8.210000 & 4.440000 & 0.940000 \\
+ & statd2gan & 6.250000 & 4.350000 & 1.300000 \\
+ & timegan & 0.030000 & 9.810000 & 1.780000 \\
+\cline{1-5}
+\multirow[t]{4}{*}{bergen} & rcgan & 0.290000 & 2.530000 & 0.230000 \\
+ & real\_val & 5.180000 & 2.140000 & 0.320000 \\
+ & statd2gan & 4.120000 & 2.010000 & 0.530000 \\
+ & timegan & 0.060000 & 5.330000 & 1.000000 \\
+\cline{1-5}
+\multirow[t]{4}{*}{dubai} & rcgan & 0.770000 & 1.830000 & 0.280000 \\
+ & real\_val & 5.390000 & 2.650000 & 0.610000 \\
+ & statd2gan & 3.630000 & 3.180000 & 1.110000 \\
+ & timegan & 0.150000 & 6.030000 & 1.160000 \\
+\cline{1-5}
+\multirow[t]{4}{*}{lhasa} & rcgan & 1.580000 & 2.350000 & 0.210000 \\
+ & real\_val & 8.650000 & 4.530000 & 1.160000 \\
+ & statd2gan & 5.680000 & 4.360000 & 1.430000 \\
+ & timegan & 0.060000 & 9.410000 & 2.380000 \\
+\cline{1-5}
+\multirow[t]{4}{*}{yakutsk} & rcgan & 0.190000 & 4.810000 & 0.570000 \\
+ & real\_val & 21.410000 & 4.780000 & 0.840000 \\
+ & statd2gan & 19.930000 & 5.430000 & 1.290000 \\
+ & timegan & 0.140000 & 21.660000 & 2.510000 \\
+\cline{1-5}
+\bottomrule
+\end{tabular}
+\end{table}

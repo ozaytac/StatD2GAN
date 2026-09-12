@@ -1,0 +1,147 @@
+\begin{table}
+\caption{Kendall tau MAE (mean $\pm$ SD, N=5 seeds, held-out).}
+\label{tab:kendall_mae_v2}
+\begin{tabular}{llllll}
+\toprule
+loc & ankara & bergen & dubai & lhasa & yakutsk \\
+config &  &  &  &  &  \\
+\midrule
+full\_model & 0.161 $\pm$ 0.058 & 0.206 $\pm$ 0.089 & 0.159 $\pm$ 0.085 & 0.202 $\pm$ 0.071 & 0.135 $\pm$ 0.015 \\
+no\_D\_temporal & 0.161 $\pm$ 0.063 & 0.211 $\pm$ 0.075 & 0.14 $\pm$ 0.042 & 0.178 $\pm$ 0.019 & 0.096 $\pm$ 0.028 \\
+no\_D\_stat & 0.226 $\pm$ 0.077 & 0.18 $\pm$ 0.036 & 0.138 $\pm$ 0.041 & 0.176 $\pm$ 0.047 & 0.124 $\pm$ 0.048 \\
+no\_D\_sorted & 0.161 $\pm$ 0.077 & 0.253 $\pm$ 0.039 & 0.383 $\pm$ 0.156 & 0.251 $\pm$ 0.057 & 0.29 $\pm$ 0.136 \\
+no\_calibration & 0.213 $\pm$ 0.082 & 0.227 $\pm$ 0.089 & 0.171 $\pm$ 0.024 & 0.142 $\pm$ 0.024 & 0.132 $\pm$ 0.046 \\
+fixed\_lambda & 0.211 $\pm$ 0.075 & 0.189 $\pm$ 0.066 & 0.119 $\pm$ 0.051 & 0.178 $\pm$ 0.061 & 0.125 $\pm$ 0.059 \\
+moment\_D\_stat & 0.188 $\pm$ 0.029 & 0.224 $\pm$ 0.085 & 0.176 $\pm$ 0.072 & 0.163 $\pm$ 0.03 & 0.153 $\pm$ 0.076 \\
+rank\_D\_sort & 0.273 $\pm$ 0.121 & 0.236 $\pm$ 0.074 & 0.301 $\pm$ 0.034 & 0.217 $\pm$ 0.025 & 0.268 $\pm$ 0.086 \\
+no\_aux\_losses & 0.196 $\pm$ 0.064 & 0.26 $\pm$ 0.075 & 0.175 $\pm$ 0.072 & 0.182 $\pm$ 0.068 & 0.145 $\pm$ 0.07 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}
+\caption{ACF MAE (mean $\pm$ SD, N=5 seeds, held-out).}
+\label{tab:acf_mae_v2}
+\begin{tabular}{llllll}
+\toprule
+loc & ankara & bergen & dubai & lhasa & yakutsk \\
+config &  &  &  &  &  \\
+\midrule
+full\_model & 0.332 $\pm$ 0.057 & 0.34 $\pm$ 0.042 & 0.28 $\pm$ 0.081 & 0.253 $\pm$ 0.056 & 0.31 $\pm$ 0.045 \\
+no\_D\_temporal & 0.307 $\pm$ 0.044 & 0.328 $\pm$ 0.094 & 0.291 $\pm$ 0.039 & 0.314 $\pm$ 0.023 & 0.365 $\pm$ 0.015 \\
+no\_D\_stat & 0.333 $\pm$ 0.107 & 0.357 $\pm$ 0.033 & 0.326 $\pm$ 0.062 & 0.304 $\pm$ 0.087 & 0.309 $\pm$ 0.067 \\
+no\_D\_sorted & 0.36 $\pm$ 0.094 & 0.387 $\pm$ 0.075 & 0.251 $\pm$ 0.061 & 0.243 $\pm$ 0.02 & 0.319 $\pm$ 0.117 \\
+no\_calibration & 0.325 $\pm$ 0.032 & 0.364 $\pm$ 0.073 & 0.279 $\pm$ 0.061 & 0.206 $\pm$ 0.024 & 0.34 $\pm$ 0.112 \\
+fixed\_lambda & 0.315 $\pm$ 0.083 & 0.364 $\pm$ 0.106 & 0.279 $\pm$ 0.032 & 0.24 $\pm$ 0.049 & 0.32 $\pm$ 0.067 \\
+moment\_D\_stat & 0.324 $\pm$ 0.079 & 0.221 $\pm$ 0.092 & 0.292 $\pm$ 0.054 & 0.251 $\pm$ 0.113 & 0.4 $\pm$ 0.034 \\
+rank\_D\_sort & 0.261 $\pm$ 0.092 & 0.212 $\pm$ 0.027 & 0.212 $\pm$ 0.07 & 0.24 $\pm$ 0.073 & 0.225 $\pm$ 0.063 \\
+no\_aux\_losses & 0.344 $\pm$ 0.058 & 0.399 $\pm$ 0.042 & 0.258 $\pm$ 0.092 & 0.242 $\pm$ 0.045 & 0.324 $\pm$ 0.122 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}
+\caption{Physics violation rate (mean $\pm$ SD, N=5 seeds, held-out).}
+\label{tab:phys_viol_rate_v2}
+\begin{tabular}{llllll}
+\toprule
+loc & ankara & bergen & dubai & lhasa & yakutsk \\
+config &  &  &  &  &  \\
+\midrule
+full\_model & 0.045 $\pm$ 0.05 & 0.045 $\pm$ 0.036 & 0.052 $\pm$ 0.082 & 0.061 $\pm$ 0.055 & 0.038 $\pm$ 0.028 \\
+no\_D\_temporal & 0.011 $\pm$ 0.014 & 0.029 $\pm$ 0.021 & 0.0 $\pm$ 0.001 & 0.002 $\pm$ 0.002 & 0.042 $\pm$ 0.036 \\
+no\_D\_stat & 0.047 $\pm$ 0.046 & 0.103 $\pm$ 0.138 & 0.032 $\pm$ 0.047 & 0.016 $\pm$ 0.018 & 0.025 $\pm$ 0.019 \\
+no\_D\_sorted & 0.04 $\pm$ 0.041 & 0.137 $\pm$ 0.119 & 0.039 $\pm$ 0.044 & 0.061 $\pm$ 0.06 & 0.085 $\pm$ 0.036 \\
+no\_calibration & 0.003 $\pm$ 0.005 & 0.0 $\pm$ 0.001 & 0.001 $\pm$ 0.001 & 0.002 $\pm$ 0.002 & 0.001 $\pm$ 0.002 \\
+fixed\_lambda & 0.028 $\pm$ 0.051 & 0.029 $\pm$ 0.021 & 0.001 $\pm$ 0.002 & 0.024 $\pm$ 0.044 & 0.052 $\pm$ 0.037 \\
+moment\_D\_stat & 0.019 $\pm$ 0.024 & 0.067 $\pm$ 0.09 & 0.006 $\pm$ 0.014 & 0.011 $\pm$ 0.02 & 0.054 $\pm$ 0.043 \\
+rank\_D\_sort & 0.144 $\pm$ 0.101 & 0.213 $\pm$ 0.065 & 0.08 $\pm$ 0.101 & 0.133 $\pm$ 0.118 & 0.295 $\pm$ 0.098 \\
+no\_aux\_losses & 0.021 $\pm$ 0.04 & 0.03 $\pm$ 0.016 & 0.066 $\pm$ 0.07 & 0.02 $\pm$ 0.031 & 0.016 $\pm$ 0.01 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}
+\caption{KS sup-distance (mean $\pm$ SD, N=5 seeds, held-out).}
+\label{tab:ks_stat_v2}
+\begin{tabular}{llllll}
+\toprule
+loc & ankara & bergen & dubai & lhasa & yakutsk \\
+config &  &  &  &  &  \\
+\midrule
+full\_model & 0.037 $\pm$ 0.0 & 0.036 $\pm$ 0.0 & 0.035 $\pm$ 0.0 & 0.085 $\pm$ 0.0 & 0.05 $\pm$ 0.001 \\
+no\_D\_temporal & 0.036 $\pm$ 0.0 & 0.036 $\pm$ 0.0 & 0.035 $\pm$ 0.0 & 0.085 $\pm$ 0.0 & 0.049 $\pm$ 0.0 \\
+no\_D\_stat & 0.037 $\pm$ 0.0 & 0.036 $\pm$ 0.0 & 0.035 $\pm$ 0.0 & 0.085 $\pm$ 0.0 & 0.049 $\pm$ 0.0 \\
+no\_D\_sorted & 0.037 $\pm$ 0.0 & 0.037 $\pm$ 0.0 & 0.035 $\pm$ 0.0 & 0.085 $\pm$ 0.0 & 0.05 $\pm$ 0.001 \\
+no\_calibration & 0.161 $\pm$ 0.045 & 0.183 $\pm$ 0.059 & 0.14 $\pm$ 0.035 & 0.17 $\pm$ 0.034 & 0.145 $\pm$ 0.022 \\
+fixed\_lambda & 0.037 $\pm$ 0.0 & 0.036 $\pm$ 0.0 & 0.035 $\pm$ 0.0 & 0.085 $\pm$ 0.0 & 0.049 $\pm$ 0.0 \\
+moment\_D\_stat & 0.037 $\pm$ 0.0 & 0.036 $\pm$ 0.0 & 0.035 $\pm$ 0.0 & 0.085 $\pm$ 0.0 & 0.049 $\pm$ 0.0 \\
+rank\_D\_sort & 0.037 $\pm$ 0.0 & 0.037 $\pm$ 0.0 & 0.035 $\pm$ 0.001 & 0.085 $\pm$ 0.0 & 0.049 $\pm$ 0.0 \\
+no\_aux\_losses & 0.037 $\pm$ 0.0 & 0.036 $\pm$ 0.0 & 0.035 $\pm$ 0.0 & 0.085 $\pm$ 0.0 & 0.05 $\pm$ 0.001 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}
+\caption{Real train--val KS noise floor per location.}
+\label{tab:floor}
+\begin{tabular}{lr}
+\toprule
+ & KS noise floor \\
+\midrule
+ankara & 0.036300 \\
+dubai & 0.034400 \\
+bergen & 0.036000 \\
+lhasa & 0.084600 \\
+yakutsk & 0.048800 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\begin{table}
+\caption{Paired Wilcoxon over 25 (location, seed) pairs; Holm within metric.}
+\label{tab:wilcoxon}
+\begin{tabular}{llrrlr}
+\toprule
+metric & contrast & median\_diff & p\_wilcoxon & signs(+) & p\_holm \\
+\midrule
+ks\_stat & no\_calibration & 0.110500 & 0.000000 & AN:5/5 DU:5/5 BE:5/5 LH:5/5 YA:5/5 & 0.000000 \\
+ks\_stat & no\_D\_temporal & -0.000100 & 0.008100 & AN:1/5 DU:1/5 BE:2/5 LH:0/5 YA:1/5 & 0.056500 \\
+ks\_stat & moment\_D\_stat & -0.000100 & 0.055100 & AN:2/5 DU:1/5 BE:2/5 LH:1/5 YA:2/5 & 0.330400 \\
+ks\_stat & rank\_D\_sort & 0.000100 & 0.062600 & AN:3/5 DU:3/5 BE:4/5 LH:4/5 YA:2/5 & 0.313100 \\
+ks\_stat & no\_D\_stat & -0.000000 & 0.200200 & AN:2/5 DU:1/5 BE:3/5 LH:1/5 YA:2/5 & 0.800900 \\
+ks\_stat & no\_aux\_losses & -0.000100 & 0.200200 & AN:2/5 DU:1/5 BE:3/5 LH:1/5 YA:2/5 & 0.600600 \\
+ks\_stat & fixed\_lambda & -0.000100 & 0.275200 & AN:4/5 DU:1/5 BE:2/5 LH:0/5 YA:2/5 & 0.550400 \\
+ks\_stat & no\_D\_sorted & -0.000000 & 0.633800 & AN:3/5 DU:2/5 BE:2/5 LH:2/5 YA:1/5 & 0.633800 \\
+kendall\_mae & rank\_D\_sort & 0.087900 & 0.000400 & AN:4/5 DU:5/5 BE:3/5 LH:3/5 YA:5/5 & 0.003000 \\
+kendall\_mae & no\_D\_sorted & 0.079800 & 0.001300 & AN:2/5 DU:5/5 BE:3/5 LH:4/5 YA:5/5 & 0.009100 \\
+kendall\_mae & no\_aux\_losses & 0.020200 & 0.140900 & AN:3/5 DU:3/5 BE:4/5 LH:3/5 YA:2/5 & 0.845500 \\
+kendall\_mae & no\_D\_temporal & -0.012100 & 0.395700 & AN:1/5 DU:4/5 BE:3/5 LH:2/5 YA:0/5 & 1.000000 \\
+kendall\_mae & fixed\_lambda & -0.005500 & 0.507700 & AN:4/5 DU:1/5 BE:2/5 LH:2/5 YA:3/5 & 1.000000 \\
+kendall\_mae & moment\_D\_stat & 0.020000 & 0.615000 & AN:3/5 DU:3/5 BE:3/5 LH:2/5 YA:3/5 & 1.000000 \\
+kendall\_mae & no\_calibration & 0.003700 & 0.751000 & AN:3/5 DU:4/5 BE:3/5 LH:2/5 YA:2/5 & 1.000000 \\
+kendall\_mae & no\_D\_stat & 0.011800 & 0.874000 & AN:4/5 DU:2/5 BE:3/5 LH:2/5 YA:2/5 & 0.874000 \\
+acf\_mae & rank\_D\_sort & -0.066200 & 0.000200 & AN:2/5 DU:1/5 BE:0/5 LH:4/5 YA:0/5 & 0.001300 \\
+acf\_mae & no\_D\_stat & 0.044300 & 0.209900 & AN:2/5 DU:4/5 BE:2/5 LH:3/5 YA:4/5 & 1.000000 \\
+acf\_mae & no\_D\_temporal & 0.025100 & 0.230400 & AN:2/5 DU:3/5 BE:2/5 LH:4/5 YA:4/5 & 1.000000 \\
+acf\_mae & no\_aux\_losses & 0.023500 & 0.596500 & AN:3/5 DU:2/5 BE:4/5 LH:2/5 YA:2/5 & 1.000000 \\
+acf\_mae & no\_calibration & -0.000600 & 0.853200 & AN:1/5 DU:3/5 BE:4/5 LH:1/5 YA:3/5 & 1.000000 \\
+acf\_mae & moment\_D\_stat & 0.014100 & 0.894900 & AN:2/5 DU:4/5 BE:1/5 LH:2/5 YA:5/5 & 1.000000 \\
+acf\_mae & no\_D\_sorted & -0.021500 & 0.915800 & AN:2/5 DU:1/5 BE:3/5 LH:2/5 YA:2/5 & 1.000000 \\
+acf\_mae & fixed\_lambda & 0.016300 & 1.000000 & AN:3/5 DU:3/5 BE:3/5 LH:2/5 YA:2/5 & 1.000000 \\
+phys\_viol\_rate & no\_calibration & -0.022200 & 0.000000 & AN:0/5 DU:1/5 BE:0/5 LH:2/5 YA:0/5 & 0.000000 \\
+phys\_viol\_rate & rank\_D\_sort & 0.120800 & 0.000000 & AN:4/5 DU:3/5 BE:5/5 LH:4/5 YA:5/5 & 0.000300 \\
+phys\_viol\_rate & fixed\_lambda & -0.004000 & 0.011500 & AN:1/5 DU:1/5 BE:2/5 LH:2/5 YA:2/5 & 0.068700 \\
+phys\_viol\_rate & no\_D\_temporal & -0.005600 & 0.014700 & AN:1/5 DU:0/5 BE:1/5 LH:2/5 YA:3/5 & 0.073600 \\
+phys\_viol\_rate & moment\_D\_stat & -0.005500 & 0.113500 & AN:1/5 DU:1/5 BE:3/5 LH:1/5 YA:2/5 & 0.454000 \\
+phys\_viol\_rate & no\_D\_sorted & 0.023700 & 0.156300 & AN:2/5 DU:3/5 BE:4/5 LH:3/5 YA:5/5 & 0.469000 \\
+phys\_viol\_rate & no\_aux\_losses & -0.001800 & 0.209900 & AN:1/5 DU:3/5 BE:3/5 LH:2/5 YA:1/5 & 0.419900 \\
+phys\_viol\_rate & no\_D\_stat & -0.006100 & 0.395700 & AN:3/5 DU:1/5 BE:3/5 LH:2/5 YA:1/5 & 0.395700 \\
+\bottomrule
+\end{tabular}
+\end{table}
