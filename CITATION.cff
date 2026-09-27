@@ -5,10 +5,11 @@ title: "StatD2GAN: A Protocol-Correction and Component Analysis of Multi-Discrim
 authors:
   - family-names: "Ozaytac"
     given-names: "Mustafa"
-    orcid: "https://orcid.org/0000-0002-2650-1458"
+    orcid: "https://orcid.org/0009-0009-8486-0828"
     affiliation: "Department of Statistics, Faculty of Science, Hacettepe University"
   - family-names: "Karadag Atas"
     given-names: "Ozge"
+    orcid: "https://orcid.org/0000-0002-2650-1458"
 repository-code: "https://github.com/ozaytac/StatD2GAN"
 license: MIT
 version: "1.0.0"
@@ -19,10 +20,11 @@ preferred-citation:
   authors:
     - family-names: "Ozaytac"
       given-names: "Mustafa"
-      orcid: "https://orcid.org/0000-0002-2650-1458"
+      orcid: "https://orcid.org/0009-0009-8486-0828"
       affiliation: "Department of Statistics, Faculty of Science, Hacettepe University"
     - family-names: "Karadag Atas"
       given-names: "Ozge"
+      orcid: "https://orcid.org/0000-0002-2650-1458"
   journal: "Neurocomputing"
   year: 2026
   notes: "Preprint / in preparation"
