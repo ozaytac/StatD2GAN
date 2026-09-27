@@ -1,5 +1,7 @@
 # 🌦️ StatD2GAN
 
+[![DOI](https://zenodo.org/badge/1367725796.svg)](https://doi.org/10.5281/zenodo.22996771)
+
 **A multi-discriminator GAN for synthetic multivariate weather sequences and a
 held-out re-evaluation that overturns most of its own architecture claims.**
 
