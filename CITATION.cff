@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+type: software
+title: "StatD2GAN: A Protocol-Correction and Component Analysis of Multi-Discriminator GANs for Synthetic Weather Sequences"
+authors:
+  - family-names: "Ozaytac"
+    given-names: "Mustafa"
+    orcid: "https://orcid.org/0000-0002-2650-1458"
+    affiliation: "Department of Statistics, Faculty of Science, Hacettepe University"
+  - family-names: "Karadag Atas"
+    given-names: "Ozge"
+repository-code: "https://github.com/ozaytac/StatD2GAN"
+license: MIT
+version: "1.0.0"
+date-released: "2026-09-27"
+preferred-citation:
+  type: article
+  title: "StatD2GAN: A Protocol-Correction and Component Analysis of Multi-Discriminator GANs for Synthetic Weather Sequences"
+  authors:
+    - family-names: "Ozaytac"
+      given-names: "Mustafa"
+      orcid: "https://orcid.org/0000-0002-2650-1458"
+      affiliation: "Department of Statistics, Faculty of Science, Hacettepe University"
+    - family-names: "Karadag Atas"
+      given-names: "Ozge"
+  journal: "Neurocomputing"
+  year: 2026
+  notes: "Preprint / in preparation"
