@@ -85,4 +85,10 @@ def test_triangle_check_detects_a_corrupted_distance():
 if __name__ == "__main__":
     for n, f in list(globals().items()):
         if n.startswith("test_"):
-            r = f(); print(r if isinstance(r, str) else "PASS", n)
+            try:
+                r = f()
+            except BaseException as e:                         # pytest.skip raises Skipped (a BaseException)
+                if type(e).__name__ != "Skipped":
+                    raise
+                r = f"SKIP ({e})"
+            print(r if isinstance(r, str) else "PASS", n)

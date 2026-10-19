@@ -10,7 +10,7 @@
     "scripts/table_seq_extra.py": "b6b12f970497be188bd222e089d53928cbf32afb42b99a975764a24024b3904e",
     "generated/tables_pf.tex": "9f8c4fec8d1a8bc6857a29d164e5b491613a5a2fc11c4ecb34dbaf65cfe86ee1",
     "scripts/distance_extra.py": "55552fc56e06907fa64fcb89f12bab3200bce0e20e5943334e750792285b7a0f",
-    "tests/test_distance_extra.py": "7d7ffbd7d558f63b9e0e258dce4908b9b257dcf5bd314b52410e9870544dc666",
+    "tests/test_distance_extra.py": "a8587f06ae1cc2c23ce2e28b8e3f014a0333623c2805d61e18d46e266b6131cc",
     "results_extra/distance_cal_train.csv": "c7fd336754e9045178a172820a4b536cd92eea4bf555a965f848ceabfcd329f5",
     "generated/table_dist_pf.tex": "c15d36aad48aca1cfc9fdea00d67754fb7e308cf8c1f920793e3564d802c17df",
     ".github/workflows/ci.yml": "88be90a29eb242101ac9463c9e9f12252bf0c4be608063c8f15005855241663a",
