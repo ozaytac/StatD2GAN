@@ -29,7 +29,7 @@
     "tools/assemble_release.py": "8ed489e1cd2d2015153264f9a7d5d40cfaac6cd90d12b12e4b00a7b5170aae9a",
     "tools/build_paper.py": "0c08218f5ca4affa79c7e608fc5b175d51ed65db2ab5b744318268911b412010",
     "tools/data.py": "6db768981b7e88f616acfcf6ca16256311d02869688caed81cf0b3e5d72457f1",
-    "tools/fetch_weights.py": "d57f78d30d1a321abc0df61ea73b2ff93764bce3d34afb0db72c46cfafc63485",
+    "tools/fetch_weights.py": "72b46a74c9eee66211cbaff23a8d0230219c218f153add2f79a7badc4b601249",
     "tools/lint_paper.py": "fc723dca12fcb0da52ada4e963e4ee88f7a9b4f61b19f0ef0af370b848e2cfd9",
     "tools/macro_check.py": "f02814acd7f151a5ee9899d4354ef17fd9a7eb1f313b351ea718101aadedbd69",
     "tools/register_release.py": "436b105a854a46bbe62094175dcd018a1f17d3fb5335cbaa1f5b0757573d1a17",
@@ -48,7 +48,7 @@
     "scripts/table_pilot_extra.py": "2e9a4ad0d278af63d458cb68577537bfdd8c35a062091af026d84a954f10cb89"
   },
   "frozen_manifest_sha256": "2c60b9e0befe70b87736d5e41f2294767da93cc14158a00e15f8da7ad88fe0d0",
-  "updated_utc": "2026-10-19T18:03:12+00:00",
+  "updated_utc": "2026-10-19T18:52:04+00:00",
   "scope_note_distance_extra": "scripts/distance_extra.py is the one post-freeze step that re-runs inference: it reloads the frozen generator weights (runs/*/*.pt), redraws with the frozen seeds and refits calibration through unchanged frozen src/ code, then gates every run against the frozen run JSON (|KS - JSON| <= 1e-4). No training. Its output results_extra/distance_cal_train.csv is registered only after all gates pass.",
   "superseded": {
     ".zenodo.json": {

@@ -17,6 +17,7 @@ import json
 import os
 import sys
 import tarfile
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -42,7 +43,19 @@ def main(local: bool) -> int:
                 sys.exit(f"--local: {tar} missing or sha256 mismatch")
             url = wm["url_template"].format(record_id=rec, name=name)
             print(f"downloading {name} ({meta['bytes'] / 1e9:.2f} GB) from {url}")
-            urllib.request.urlretrieve(url, tar)
+            try:
+                urllib.request.urlretrieve(url, tar)
+            except urllib.error.URLError as e:
+                tar.unlink(missing_ok=True)
+                hint = ""
+                if "CERTIFICATE_VERIFY_FAILED" in str(e):
+                    hint = ("\nPython cannot find CA certificates. macOS python.org builds: run "
+                            "'/Applications/Python 3.x/Install Certificates.command' once, or "
+                            "`pip install certifi` and rerun with "
+                            "SSL_CERT_FILE=$(python3 -c 'import certifi; print(certifi.where())').")
+                sys.exit(f"{name}: download failed ({e}){hint}\n"
+                         f"Alternatively download the archives by hand from https://zenodo.org/records/{rec}, "
+                         "put them in weights/ and run: python3 tools/fetch_weights.py --local")
             if sha(tar) != meta["sha256"]:
                 sys.exit(f"{name}: sha256 mismatch after download")
         members = {f["path"]: f for f in wm["files"] if f["archive"] == name}
