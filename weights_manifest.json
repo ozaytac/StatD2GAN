@@ -1,1691 +1,1691 @@
 {
- "note": "Generator weights (state_dict, fp32) of all 275 frozen runs. Not in git. sha256 values are those of the frozen MANIFEST.json; sizes as recorded on the author's copy. Archive sizes and sha256 are filled in by tools/assemble_release.py when the archives are built.",
- "record_id": null,
- "doi": null,
- "url_template": "https://zenodo.org/records/{record_id}/files/{name}?download=1",
- "archives": [
-  {
-   "name": "weights_ankara.tar",
-   "bytes": 1005772800,
-   "sha256": "bd40d4807f1856128919cb5a0117fbb728b9a0a8b0d4fe4ca0c2c907304f046e",
-   "members": 55
-  },
-  {
-   "name": "weights_bergen.tar",
-   "bytes": 1005772800,
-   "sha256": "77b1946484413095b545539f44aa42022eef1093ba00d0a450c89d7e38650a92",
-   "members": 55
-  },
-  {
-   "name": "weights_dubai.tar",
-   "bytes": 1005772800,
-   "sha256": "c45dd08618409ce64bd7d1b7ce96beb045db23c63d2fc0a0afb426834f5bdfdc",
-   "members": 55
-  },
-  {
-   "name": "weights_lhasa.tar",
-   "bytes": 1005772800,
-   "sha256": "9a96cd0a2f701e47cb4765a6b3a3cd6ae3f6d5eb2d014794059f8e72675af226",
-   "members": 55
-  },
-  {
-   "name": "weights_yakutsk.tar",
-   "bytes": 1005783040,
-   "sha256": "b34fe6dd0c8e3f88e30e033161795ed55b4d25eded964bc2536e50912835abfb",
-   "members": 55
-  }
- ],
- "files": [
-  {
-   "path": "runs/ankara/ankara_fixed_lambda_seed123.pt",
-   "bytes": 22097909,
-   "sha256": "a17d459ed83bd555a89ad4f4a72571f3cb8722cdd08da66e3c1faa7da27e85cc",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_fixed_lambda_seed2024.pt",
-   "bytes": 22098048,
-   "sha256": "0fef2974a2e27d22a26284201f25ee33f049bf973af5caec5f612c7237b6e718",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_fixed_lambda_seed42.pt",
-   "bytes": 22097898,
-   "sha256": "0e45c5fed4fcada69f9295378ab29950330f0b9c59648865cce04f4460e640ff",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_fixed_lambda_seed456.pt",
-   "bytes": 22097909,
-   "sha256": "48720d6a922a76934bb7e4cd62daaa8c84ffb3c3134a97d56e09ab73488ef9b4",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_fixed_lambda_seed789.pt",
-   "bytes": 22097909,
-   "sha256": "47ff3248175da56611fd98de8d6a1a2064b8b525a25126f5094e3183d40a507f",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_full_model_seed123.pt",
-   "bytes": 22097887,
-   "sha256": "2f4ff8366bdea5e0e97bfe2c9b1e12d3c84f06b52b9b8535e30fd04b58f343e1",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_full_model_seed2024.pt",
-   "bytes": 22097898,
-   "sha256": "923780071648b33092e11a7ae65aeac5a9c38ee50550e94337458852b4455768",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_full_model_seed42.pt",
-   "bytes": 22097876,
-   "sha256": "0e200b4fe92e58ec5e612032f2f5be5728427001f3afcccfeb279149e6717973",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_full_model_seed456.pt",
-   "bytes": 22097887,
-   "sha256": "b50fda9eafc5d867a402d8c7c443da8d706b9636d3d8bdab824b6618eed2da98",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_full_model_seed789.pt",
-   "bytes": 22097887,
-   "sha256": "ee25dc8500a44746c524df5ca7eb6e165ffda5b955c695f449710cbd983d6546",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_moment_D_stat_seed123.pt",
-   "bytes": 22098048,
-   "sha256": "7556015dcb2a4640d8f23a8035327bf748b7204ec587889ac9a8a6c7b8fe3551",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_moment_D_stat_seed2024.pt",
-   "bytes": 22098059,
-   "sha256": "fce67c6e11175496372d60ae62ef0b749a8e484080ff0571dda21dce61d3d843",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_moment_D_stat_seed42.pt",
-   "bytes": 22097909,
-   "sha256": "86b1c2d5720c1c19ad2ef3016bfcf3eb59c3b2edf97ede71b2a1a86b327f0a21",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_moment_D_stat_seed456.pt",
-   "bytes": 22098048,
-   "sha256": "d6f2d62ffc3219df000b4d94a2c7a35cbc2b179bfafeafe3d5f509a1159b2d99",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_moment_D_stat_seed789.pt",
-   "bytes": 22098048,
-   "sha256": "3034119706745e4c9990182ea28c9de6297a37b2d73aa0de0d4ea8eb460fec35",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_sorted_seed123.pt",
-   "bytes": 22097898,
-   "sha256": "a1f5b7a4025b14c8d09ac6c426aeb4dd8f517257691e6cf67b7ee778611ded7d",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_sorted_seed2024.pt",
-   "bytes": 22097909,
-   "sha256": "29c08a80111586dc8ab86d3dd832a92b1258c94ff62f820a2366681fc5873aa1",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_sorted_seed42.pt",
-   "bytes": 22097887,
-   "sha256": "e7c66e6c02ccf17248513b9ff1398ef4738332b1d818c9badd58b73520b5e009",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_sorted_seed456.pt",
-   "bytes": 22097898,
-   "sha256": "c54406ebe9f3107ada5518b7caa0dca13417aa53a5e0785a9fb0bcdae932b9f8",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_sorted_seed789.pt",
-   "bytes": 22097898,
-   "sha256": "2f29cccfe0ff6d174b1b1e84a09230dbdef2559b25bb7d145c0aa39bcb09c783",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_stat_seed123.pt",
-   "bytes": 22097876,
-   "sha256": "117032d2bd4ed84ecd4db33e0151b38bcfa4cb0b1a2b5d5a1103ae6fe2e721d0",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_stat_seed2024.pt",
-   "bytes": 22097887,
-   "sha256": "925c112c30c1e528622314402afd2717d37e4403534175ecf77d60bc0f088f4c",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_stat_seed42.pt",
-   "bytes": 22097865,
-   "sha256": "f075b535946bd761035cb8212d8d3ceb4284800a69c07ef84f3d41bdc8323616",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_stat_seed456.pt",
-   "bytes": 22097876,
-   "sha256": "80a59c40b01ff3a9fb96250cca76f054ac416b07880e3b3e9b3d2a6f3a227adf",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_stat_seed789.pt",
-   "bytes": 22097876,
-   "sha256": "8b2433e6045f0f75baf34c5e67e171cc20debac0b4b3c2dd99bdf617fbc8f422",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_temporal_seed123.pt",
-   "bytes": 22098048,
-   "sha256": "f7be23096fa53e80c46e893131702d980fd047cb34f5673140c477a7d2e0aa1c",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_temporal_seed2024.pt",
-   "bytes": 22098059,
-   "sha256": "a11d853cbfcc6370da370ea91bbaf728ad250902b128cab95dc8ad2004dd33e9",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_temporal_seed42.pt",
-   "bytes": 22097909,
-   "sha256": "af9bb56254bec5bc3192151eb72e908d2ffed3922be536d42faac7786920b4c4",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_temporal_seed456.pt",
-   "bytes": 22098048,
-   "sha256": "bdcfe1b6a9c44ca5d6a8510c8666d08cf2755f566c5b8a832add17e4d91cba19",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_D_temporal_seed789.pt",
-   "bytes": 22098048,
-   "sha256": "90529fe98c1dce0cc4c8b18f5c6b3554f9944f1e78702b2b0faecce51b966723",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_aux_losses_seed123.pt",
-   "bytes": 22098048,
-   "sha256": "0fcf696d2d831b8cb3c007f0158b089485ea5adbad0633cbfe1633b6a5382634",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_aux_losses_seed2024.pt",
-   "bytes": 22098059,
-   "sha256": "7e25c566728933142083c3a5f901cfaa1934ffba91e969d118177913e152351b",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_aux_losses_seed42.pt",
-   "bytes": 22097909,
-   "sha256": "2d5e224f98c5baf65c63283cc38e7648b45edfa44e2977b32d90392f6a619360",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_aux_losses_seed456.pt",
-   "bytes": 22098048,
-   "sha256": "8b31096fd1f6570d8fec046159092c7303f4ac7e6cf908dd65ba1b183018a359",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_aux_losses_seed789.pt",
-   "bytes": 22098048,
-   "sha256": "2915186ce5c5533e0c10d30efc9cf1e3ffb4720f55ce38cdb14343f8feb43d52",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_calibration_seed123.pt",
-   "bytes": 22098059,
-   "sha256": "8e32d52fd415a1ba04b4519d3bf72c4b4d0c3785b64b344259132390ca55ca76",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_calibration_seed2024.pt",
-   "bytes": 22098070,
-   "sha256": "c6e6138fb3f2a5a6891c6f79a217d3e02ee0912333b65b61a953dbb64a84345b",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_calibration_seed42.pt",
-   "bytes": 22098048,
-   "sha256": "9d312944f1d9c1061d38e27ffba0b6cf0df1692b989b6a802f2c3e5124214d50",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_calibration_seed456.pt",
-   "bytes": 22098059,
-   "sha256": "b93b8895bcf6e9fe7fff66c54a4579c5165928f0ad44157fcc8935f37f9ab892",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_no_calibration_seed789.pt",
-   "bytes": 22098059,
-   "sha256": "35fc9185e5cb885b0a121e4eb6cf79578d2bcc4869f808165d5eab792a546005",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_rank_D_sort_seed123.pt",
-   "bytes": 22097898,
-   "sha256": "3f6df9e2649cce65bc0bca0412e65a003f4cff30b6c94ea8d0fcbbce8e3c605d",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_rank_D_sort_seed2024.pt",
-   "bytes": 22097909,
-   "sha256": "8c19fc3c35641b1de56aea13446546ed9bb55ecc6e6feaf436a0f144aa51da96",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_rank_D_sort_seed42.pt",
-   "bytes": 22097887,
-   "sha256": "9cf791deb94eabae612fea41cb7470e217f47fa309321b5b6635e66f7a410476",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_rank_D_sort_seed456.pt",
-   "bytes": 22097898,
-   "sha256": "29c98c876278521db889deed449c50254ebe8fca03ada51ae3a960ed49d9951a",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_rank_D_sort_seed789.pt",
-   "bytes": 22097898,
-   "sha256": "cd8ba510282431d25cb7e82d33a902156e2c0f4db7a96e7e975ac28072675f78",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_rcgan_seed123.pt",
-   "bytes": 868758,
-   "sha256": "cd740146b074c14a278c039463f5920602438083e58c9bf9d3a12e99d74c4a6e",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_rcgan_seed2024.pt",
-   "bytes": 868767,
-   "sha256": "bf64a40089522ebd06e7d2d1fab541572c2bccfcfd2985aef8e22b013aa23799",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_rcgan_seed42.pt",
-   "bytes": 868749,
-   "sha256": "3630488f1278bf55278f96255c8814b9e38547ec317f0d8acd75731a2a52965b",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_rcgan_seed456.pt",
-   "bytes": 868758,
-   "sha256": "b56c5605eeb3af4e0a608642e74ac6764c9dc8be3dbece64b9f49b9a3ac0e2c7",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_rcgan_seed789.pt",
-   "bytes": 868758,
-   "sha256": "ba16db03cd56a548d79a0e03c883f4753b6365822d1a0f24ab68a21d5f0543fb",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_timegan_seed123.pt",
-   "bytes": 1396593,
-   "sha256": "49d529daa8635695cc1bd951d26363ba1837c3655ecac6ea0d6575f678ce9db7",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_timegan_seed2024.pt",
-   "bytes": 1396614,
-   "sha256": "e0d6278b21fd82fbf69c01b1235a92aa68de0806d1cd07250b7190a8dfdf2415",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_timegan_seed42.pt",
-   "bytes": 1396508,
-   "sha256": "7db6f9e9a3552a4ed263269f4201bc9dee1fcdd89e4baffa3f789dac51cc215b",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_timegan_seed456.pt",
-   "bytes": 1396593,
-   "sha256": "490ae13d4690879609b9385ec56fef40e29688b63218dd3b742cf180689e804a",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/ankara/ankara_timegan_seed789.pt",
-   "bytes": 1396593,
-   "sha256": "d3f104bd1c7e0726b69d042ba30d544104c1d4816d902c34669a392fd35f20ba",
-   "archive": "weights_ankara.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_fixed_lambda_seed123.pt",
-   "bytes": 22097909,
-   "sha256": "b0e73f67e8d6c540aefcbf6297e1562aedc12bdccd57566e12e0b06262ab8d90",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_fixed_lambda_seed2024.pt",
-   "bytes": 22098048,
-   "sha256": "4a49783fe829087cfbd35b976f1f33898e3f96581c1a9f24c561f9200b852789",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_fixed_lambda_seed42.pt",
-   "bytes": 22097898,
-   "sha256": "e534ba946ca0a1e9bd931e4bc2aacbdbdd43556aab0eaf2c3ba74a1953142bbb",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_fixed_lambda_seed456.pt",
-   "bytes": 22097909,
-   "sha256": "9ded7993953a74caeacec016a3effed3510c6943000a4b3c2430805990e09276",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_fixed_lambda_seed789.pt",
-   "bytes": 22097909,
-   "sha256": "785fe18df74838ddea5a3360874cded29c1a44e94bea4cacf9d4e1d4c3a38277",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_full_model_seed123.pt",
-   "bytes": 22097887,
-   "sha256": "1a5b15c9f23d1f72a7907d3595e1616e412b8c6334e9f5e99458f00605c0d856",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_full_model_seed2024.pt",
-   "bytes": 22097898,
-   "sha256": "34aeb2857f5d6befae5054e8107f8677d2f4c5912c7e00d296856575b1a7b738",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_full_model_seed42.pt",
-   "bytes": 22097876,
-   "sha256": "3a1178c078b3cfc47e2aa1d349a54d295d99ddf52d734d870ca5a65214f2515d",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_full_model_seed456.pt",
-   "bytes": 22097887,
-   "sha256": "bead9911079c7242e6cbdab5d8001dd69417d9bbc106c07f091ba1c0a142e5b1",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_full_model_seed789.pt",
-   "bytes": 22097887,
-   "sha256": "af413d543d33b63f181dd859cecb70a2ffa2121404de92af265b1744ee3f9121",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_moment_D_stat_seed123.pt",
-   "bytes": 22098048,
-   "sha256": "a41f8b08c9a37cedb533ebcc19c8bfc270371b6f526296e165119099419e111e",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_moment_D_stat_seed2024.pt",
-   "bytes": 22098059,
-   "sha256": "046d6f76164351664198be5b04bc55b466c19b5b969f6a706fff513b68ce32fa",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_moment_D_stat_seed42.pt",
-   "bytes": 22097909,
-   "sha256": "cefcac054d31782a02c1e05c083940105a148c6073c15a72180003cfb0f9091b",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_moment_D_stat_seed456.pt",
-   "bytes": 22098048,
-   "sha256": "7648c72a786639435c039f700fea7340373d2f49f1b7ebecf4c88f742675df0e",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_moment_D_stat_seed789.pt",
-   "bytes": 22098048,
-   "sha256": "32082886d11e0d914acf87e52ccba8568a3b84f5c5dc7a135e1c41b1457cdd15",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_sorted_seed123.pt",
-   "bytes": 22097898,
-   "sha256": "e91f08849df8bcaa9e8f0a5b6476c7e955e302f43801cf02e8c115986b51b672",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_sorted_seed2024.pt",
-   "bytes": 22097909,
-   "sha256": "e6f2fe34a12096809940cc7277b0b1b1ed417e8c6918e417689e9f6a6117aaf1",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_sorted_seed42.pt",
-   "bytes": 22097887,
-   "sha256": "b69262f210bc4c6eea3af9d20c5853613125f02b1dffc629820d929d3c7b14a3",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_sorted_seed456.pt",
-   "bytes": 22097898,
-   "sha256": "207c255a81a4790821aa56dee6577bead69e84b3f5819e5cdcdb72425cc9aa57",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_sorted_seed789.pt",
-   "bytes": 22097898,
-   "sha256": "ab4a53dcabb7c5480da9df8a7367519016a65ce1643b556dabbdd573cc864eed",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_stat_seed123.pt",
-   "bytes": 22097876,
-   "sha256": "0397a7a7138a19d2fc9494bdff3a341bbdaea43ced44a088e0cad2a2a9255562",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_stat_seed2024.pt",
-   "bytes": 22097887,
-   "sha256": "a667e4511eb3053daad6a813ec7a6ead4f3ebd29d564c84fa3812ae1c11b6ecf",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_stat_seed42.pt",
-   "bytes": 22097865,
-   "sha256": "77fc3df9973929e8958a5c5eebd19d22751d156b5a5b6cac178a9fa41e0e2480",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_stat_seed456.pt",
-   "bytes": 22097876,
-   "sha256": "a9134035edb6f2755ec4e55d4127d9245700c6d89e23e99a9323bda5928c11ff",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_stat_seed789.pt",
-   "bytes": 22097876,
-   "sha256": "f241a6cebfdf5608838d16c032ac6a26ae03c3eca84bad0adf194fdbd61e2ca3",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_temporal_seed123.pt",
-   "bytes": 22098048,
-   "sha256": "3ef9c505f1fafe9507b49747296a8378126340c3e11701cc35a6a7b26c959287",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_temporal_seed2024.pt",
-   "bytes": 22098059,
-   "sha256": "f3f7ae235b69c858c696e1aefcf7c6469e805d45e36e3f55372f673ce25192a8",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_temporal_seed42.pt",
-   "bytes": 22097909,
-   "sha256": "79dac24e1648b0897f73d54db91fc0c0f240e726ca83e127f41185b598064764",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_temporal_seed456.pt",
-   "bytes": 22098048,
-   "sha256": "87ffb08736244a391acd52a40c2954a618090644f22c427e04fd5af9044f9406",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_D_temporal_seed789.pt",
-   "bytes": 22098048,
-   "sha256": "2a0c4ea58857e385116b9654a2d536c62e4ee41adcea47c21dc0c9f73fba26b1",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_aux_losses_seed123.pt",
-   "bytes": 22098048,
-   "sha256": "bee56834cfeae986ab0a06d7d22efa4b9ac90e1db7b09fa13b46906706fcd22c",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_aux_losses_seed2024.pt",
-   "bytes": 22098059,
-   "sha256": "14aae6c024c48691059bd40357ac95b00561a6e09556844bc6fe67cbec222a9d",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_aux_losses_seed42.pt",
-   "bytes": 22097909,
-   "sha256": "cb6159be7621aab0c1ac42d058659897f832d6124c9f104f735369866c8cd3a6",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_aux_losses_seed456.pt",
-   "bytes": 22098048,
-   "sha256": "d26a3f0047d59437646626f92455cae755c069cac4b04b1f03384d137e4e6194",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_aux_losses_seed789.pt",
-   "bytes": 22098048,
-   "sha256": "cc8134abae6f68b413e09653c755ed751398a50a825028de6ca3e9892bd9b9fc",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_calibration_seed123.pt",
-   "bytes": 22098059,
-   "sha256": "1de84f0ebf526c6da3cd11cae97c85c3f36e02033208fe35c2c85468f4e118b4",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_calibration_seed2024.pt",
-   "bytes": 22098070,
-   "sha256": "0da7b517614f6212f0e997df87e8f93032a54222cdb574d3ddb6384b1e5bd583",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_calibration_seed42.pt",
-   "bytes": 22098048,
-   "sha256": "0d68d38799ce1335e2527f44f860e0c3fe77dce13895e51275aa2fe4945e6745",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_calibration_seed456.pt",
-   "bytes": 22098059,
-   "sha256": "5bb7409f45f847bcea5af0e5ab671fed5ff565ae86771f5bbfb0e047fc7d45e6",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_no_calibration_seed789.pt",
-   "bytes": 22098059,
-   "sha256": "c7c3611a13d69a2da2c59afd594f30a127b210c3e22d9f0b663756519334a484",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_rank_D_sort_seed123.pt",
-   "bytes": 22097898,
-   "sha256": "51c3ed11acfb5de8c6a8ddc6b416511a44cf5437997d6a3b7903c62099db8573",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_rank_D_sort_seed2024.pt",
-   "bytes": 22097909,
-   "sha256": "b56d404d4e062422a620f8758d4cd445d0f2c975a3e3fd3e0cf3f6c3f8e5bd9e",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_rank_D_sort_seed42.pt",
-   "bytes": 22097887,
-   "sha256": "d93d7e83ca310b953578fb5ca3fc5b1c9a50106da482429e3f0f660a2f55dd9d",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_rank_D_sort_seed456.pt",
-   "bytes": 22097898,
-   "sha256": "9b9460b8c9c396efe4fe7c36a3f49b5009d681c5eb9d21675434df98251fca43",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_rank_D_sort_seed789.pt",
-   "bytes": 22097898,
-   "sha256": "87889f4fc4bfdc355e594dca88217d8f64670b08a77b8a8153e72ba096d9d9ea",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_rcgan_seed123.pt",
-   "bytes": 868758,
-   "sha256": "8e7b4c2e7bc12a16ce72f36debad1d8c8e77868b9f28d362b30f9794fe05633a",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_rcgan_seed2024.pt",
-   "bytes": 868767,
-   "sha256": "7076d38194829762aa59811965a052244dcbf03cc2a5904b3c36396d0d1fd533",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_rcgan_seed42.pt",
-   "bytes": 868749,
-   "sha256": "74a55b4e5e7701d860d3dff927cc28cb4e55bc38a666b6bc4c6ac3f63b3ced7a",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_rcgan_seed456.pt",
-   "bytes": 868758,
-   "sha256": "e24ce80c10cfd972da8ddb669bb4fb9b6a03ac7612868c48300b8fe97bdc21f8",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_rcgan_seed789.pt",
-   "bytes": 868758,
-   "sha256": "420681dafffef44177bf7e630c52d964160151de3cc117ae3836168551dc6c9a",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_timegan_seed123.pt",
-   "bytes": 1396593,
-   "sha256": "36da14795bb8d1ddf5a493de6471689ed853e1b9ed8864aeead3813d2acc9555",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_timegan_seed2024.pt",
-   "bytes": 1396614,
-   "sha256": "2913ab87eb9c185ffca0cb5e840b4da0c73f90a57e930b9f667be90137af8ad4",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_timegan_seed42.pt",
-   "bytes": 1396508,
-   "sha256": "6708e1fac22dde215db7d5a537740987f7d4ed6eebd2a80a978a6a84a05b9fed",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_timegan_seed456.pt",
-   "bytes": 1396593,
-   "sha256": "fe92a3f41bffb6e25467273a71b6e8c1d8802757453bf8282949837407a0ed9e",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/bergen/bergen_timegan_seed789.pt",
-   "bytes": 1396593,
-   "sha256": "03f2686dfd5ca657abc257726dcf402d07822ff8f4bb6ac8d6e64acf1d6d9d55",
-   "archive": "weights_bergen.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_fixed_lambda_seed123.pt",
-   "bytes": 22097898,
-   "sha256": "b0a760874cd63e1e008f83e0a51d8de1a74bb97b9286b6e587611261125b6ec5",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_fixed_lambda_seed2024.pt",
-   "bytes": 22097909,
-   "sha256": "a89a34563260569c98116258d83ba974ff26640e002e51c065aaca15b69c1552",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_fixed_lambda_seed42.pt",
-   "bytes": 22097887,
-   "sha256": "0e8a2c465d4463a1f1449c22726a12158ab17e87715030377e0eaf90d5c5606a",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_fixed_lambda_seed456.pt",
-   "bytes": 22097898,
-   "sha256": "940d524ccc2aeab4bb96857ba465825212cf69a0f16de952ea87a5321a03bf9d",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_fixed_lambda_seed789.pt",
-   "bytes": 22097898,
-   "sha256": "c152e02e2de4240f0b579fad9693a99da402981b305c1fd11b0c7703f1ffb8a9",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_full_model_seed123.pt",
-   "bytes": 22097876,
-   "sha256": "07ed0b7bdc86e1e80433a2c8b0daa0dcbc2aa6c6c70bc87f6a83206a6bdb6a0d",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_full_model_seed2024.pt",
-   "bytes": 22097887,
-   "sha256": "4b62e70536faf0defde0e4fe6d4fbce084b8467d812743ec666fe5ec506958c9",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_full_model_seed42.pt",
-   "bytes": 22097865,
-   "sha256": "09abd40753171126e4791c89474b7db882c08f15c1aa0f7ad958db4ce8648dd8",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_full_model_seed456.pt",
-   "bytes": 22097876,
-   "sha256": "d11671d2cbaf44f4a2d1f2f69f2008daa354a6f884ffc3bc0b24a65a928ab5a7",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_full_model_seed789.pt",
-   "bytes": 22097876,
-   "sha256": "790961a50674b5dd42fee3577fd529de974302679fc89efa61fee95b4b3ed120",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_moment_D_stat_seed123.pt",
-   "bytes": 22097909,
-   "sha256": "877f23d0cc18e358eeb5ac365ee6828c5f57294fb1db7e979f909352aecce60a",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_moment_D_stat_seed2024.pt",
-   "bytes": 22098048,
-   "sha256": "1a790f650f07b0eea8aa198fb6972f21bb0262a8fb847f7c2114a4f7f49f18d0",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_moment_D_stat_seed42.pt",
-   "bytes": 22097898,
-   "sha256": "d029bd4db60dcea9c296e25c00b9680d85ef0fc5c58b93c5fd1963fa2eaf8c1a",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_moment_D_stat_seed456.pt",
-   "bytes": 22097909,
-   "sha256": "405d5067003b3ed58d17ab3b39c29d87b6a1778473eda50899c9333ab91e0702",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_moment_D_stat_seed789.pt",
-   "bytes": 22097909,
-   "sha256": "88a352584ea29ca6c98ab8632c8d4129da52179ca49070fd686775b5f4e8adc2",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_sorted_seed123.pt",
-   "bytes": 22097887,
-   "sha256": "481f99c272d5580692d0b9cde0c886abaaeb419f9dac2478cbf5c612b8eec0b3",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_sorted_seed2024.pt",
-   "bytes": 22097898,
-   "sha256": "4cc4146132bf045974b7237af2f3aad8200ed10bfe588dd4e8e1a508c4301c32",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_sorted_seed42.pt",
-   "bytes": 22097876,
-   "sha256": "3395d1c6be14acf1789cf049b232df15610a3ab4d24e18f7264f86afb051b2d8",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_sorted_seed456.pt",
-   "bytes": 22097887,
-   "sha256": "63789c6e6f4d88d3bc3944a486deca13ed4080426ee91cec9f71854dd0a43033",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_sorted_seed789.pt",
-   "bytes": 22097887,
-   "sha256": "3c527070bfc712c4343a0383b246943572d4f3335b8ad986911985b29ac8d1cb",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_stat_seed123.pt",
-   "bytes": 22097865,
-   "sha256": "7c5a6203e2c88ee0fba9cc574c0f656b78f6ce8c4e7ab5f42593b1deb5940c3a",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_stat_seed2024.pt",
-   "bytes": 22097876,
-   "sha256": "9b09a2854f1dc84399e11592395dd817a267d8316dce99905836a8dda565ca80",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_stat_seed42.pt",
-   "bytes": 22097854,
-   "sha256": "c9e65bae6644eee69ac3b0af5c8ba8b246fc13435da7f275ed21b59a7b050a14",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_stat_seed456.pt",
-   "bytes": 22097865,
-   "sha256": "e3f2ef1ddb92c5d02bef181129d52fe88b8d1de152fc7c25335ee72ba9e9433f",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_stat_seed789.pt",
-   "bytes": 22097865,
-   "sha256": "1dec1de0044c72acad1d79cc5317e4619928627dbc885d92f7f96cd52c161f87",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_temporal_seed123.pt",
-   "bytes": 22097909,
-   "sha256": "7d889f0cd5db54174cc3567b72790c55ef6e5f55a23202a3c25244dc3cc8c46d",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_temporal_seed2024.pt",
-   "bytes": 22098048,
-   "sha256": "fb3818c2310f6a8ffaf66d96f51aed1b13c24918f58001b12d69983d00ad807f",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_temporal_seed42.pt",
-   "bytes": 22097898,
-   "sha256": "ee526b82d5b4d6a197b5a713ad0277b9d5b58af6bf6a10ad5a00cce66d615045",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_temporal_seed456.pt",
-   "bytes": 22097909,
-   "sha256": "bc79de025a0db42452fcdb1faad173a81914b13a23a6098350959c110f1a3c17",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_D_temporal_seed789.pt",
-   "bytes": 22097909,
-   "sha256": "5a3d59a292ac2a43f7d8dcc418a0593729c291825371cb5c4fb05b02ff4ec81d",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_aux_losses_seed123.pt",
-   "bytes": 22097909,
-   "sha256": "c1cd772787e2182a517b54f77fb8a2f6fe4027dfed5f0720f0ec4253cfbc6d4c",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_aux_losses_seed2024.pt",
-   "bytes": 22098048,
-   "sha256": "dc0a0cfd4d9c23cc31458da47fb07b6ded64cc5547003434d0bfb1848dd99b4f",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_aux_losses_seed42.pt",
-   "bytes": 22097898,
-   "sha256": "293003c41307d1f5c92ef76ee8f5259e579639e0a7436d762398e1e519e2a574",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_aux_losses_seed456.pt",
-   "bytes": 22097909,
-   "sha256": "c9b0c31ef2adf5929c18f3a152faae43827ad49cb3b4a938e2f29c53c4519bdc",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_aux_losses_seed789.pt",
-   "bytes": 22097909,
-   "sha256": "40ce9174d27ba2247142311fd908e3ec4935dea179e3f01fc12cac134feae923",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_calibration_seed123.pt",
-   "bytes": 22098048,
-   "sha256": "2e175ca0ab091c96da0c56754f5d1458b2a1611fa9ec3f91d4975b3323e4d730",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_calibration_seed2024.pt",
-   "bytes": 22098059,
-   "sha256": "7169698e8e1b49f412592d0e4da073f9218cdc55cdf333008e2869b604f1dc2b",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_calibration_seed42.pt",
-   "bytes": 22097909,
-   "sha256": "719a9f67d3099479dc55c64ef4c4ba0e0fdd8be7c7f5150823b483d8952c1a71",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_calibration_seed456.pt",
-   "bytes": 22098048,
-   "sha256": "31f31c19b1e35660d13feb54c51d8441c938a7311876efa8a60fcf6bb9223ebe",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_no_calibration_seed789.pt",
-   "bytes": 22098048,
-   "sha256": "a98f44aae4c8a88c72c69a7f31e95240d2a0d3dd4c9d009534f1db33d2c91bd7",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_rank_D_sort_seed123.pt",
-   "bytes": 22097887,
-   "sha256": "49377b632402eeb5da9fbdad900412728317821a260cd00c00830b132ed3b053",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_rank_D_sort_seed2024.pt",
-   "bytes": 22097898,
-   "sha256": "ba4db23b586cee0ecaca4fd56734c799785897affee80ba50cf74622987cfd93",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_rank_D_sort_seed42.pt",
-   "bytes": 22097876,
-   "sha256": "af787f499df3e6ffe9fa09337cd25e648ed24e1355285b95a3dbf44bdff0406c",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_rank_D_sort_seed456.pt",
-   "bytes": 22097887,
-   "sha256": "6f4fde521bfc66d5c6752a4d21c9807eaf40d4b76cdfcec1397ebcf286f247eb",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_rank_D_sort_seed789.pt",
-   "bytes": 22097887,
-   "sha256": "f1fb16724e3689cdbfc5ba21e57e669ff53bdf9dfc9468dde43657ed132a8119",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_rcgan_seed123.pt",
-   "bytes": 868749,
-   "sha256": "247b6c3c37647634571d489a8d980e0fee63eee002367e3b9f0c464f79f7a451",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_rcgan_seed2024.pt",
-   "bytes": 868758,
-   "sha256": "ab30bec1fdc807a848e7ecdcda947c09ca92b75dda902078d8a3612fe8d7ad09",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_rcgan_seed42.pt",
-   "bytes": 868740,
-   "sha256": "418c951a3f79c2118d2c5908fcae5010b0206069d39240a14a5f7fb44325297f",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_rcgan_seed456.pt",
-   "bytes": 868749,
-   "sha256": "72b11121b3e1a449e29c153cf37c54a7a592af31eda6fead7a6941cd96c62e5d",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_rcgan_seed789.pt",
-   "bytes": 868749,
-   "sha256": "55988b4159b407cc6cdfb3262c4d09a60d212b42978f875a2651ab77591f0dcb",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_timegan_seed123.pt",
-   "bytes": 1396508,
-   "sha256": "16debe60b777ca2fbb5c331808fd09c5e56367b083bf958c2de346fe5b107e34",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_timegan_seed2024.pt",
-   "bytes": 1396593,
-   "sha256": "0f6002e784dc113fb27cc2a48c61d62d84958bab3455803dc2c6f60f01a252eb",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_timegan_seed42.pt",
-   "bytes": 1396487,
-   "sha256": "de26a137905aa17721c6719d5323943a1fa6ccc7fd068da6b44f7f14d23a6850",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_timegan_seed456.pt",
-   "bytes": 1396508,
-   "sha256": "5d3062303e2597edaf5ab69747a26ed04a48f8ff1d66be440ec6f737f9ee46cd",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/dubai/dubai_timegan_seed789.pt",
-   "bytes": 1396508,
-   "sha256": "1997bdedb4b8d3bde60e724965cef9e0a997f859686658cd4ef93c6153f2180c",
-   "archive": "weights_dubai.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_fixed_lambda_seed123.pt",
-   "bytes": 22097898,
-   "sha256": "e07d6c9ea21ccac66e3063767cca932ed1c153151eb85490f516754337b8118d",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_fixed_lambda_seed2024.pt",
-   "bytes": 22097909,
-   "sha256": "8e2c73ae7379ed27944095b6bf9f81ab41a24161cd4287d06e9514ec42b3d1b6",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_fixed_lambda_seed42.pt",
-   "bytes": 22097887,
-   "sha256": "cb292d2cf59531871c255b0171b39ffbd6a22110ea4482816bcaecc0fd0e010d",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_fixed_lambda_seed456.pt",
-   "bytes": 22097898,
-   "sha256": "a5b184c8fd25e32d1dfc618219d928dea6928125b9bd60458a00f8995af3dd33",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_fixed_lambda_seed789.pt",
-   "bytes": 22097898,
-   "sha256": "14ec2644778a0b903dcdfb81ca8392a9461fb8374cd1f34572d210cf73374ade",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_full_model_seed123.pt",
-   "bytes": 22097876,
-   "sha256": "0459924df890ea6b1bbbd49fae6d4eacca5f63029e3d4b1601b87f214e8e11af",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_full_model_seed2024.pt",
-   "bytes": 22097887,
-   "sha256": "2bdf97639f5c5e2ec50a9f36e0d282006a6e3e572221fc8a8ff9279232479757",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_full_model_seed42.pt",
-   "bytes": 22097865,
-   "sha256": "27ab5a222b9d03fc6db17bff464847b330829cb70f700978f2a17e764f4aece1",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_full_model_seed456.pt",
-   "bytes": 22097876,
-   "sha256": "c3d87440ad325c54cd000e31b0d5e0ad38249c2efe4273e5bb868189dc9a8be1",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_full_model_seed789.pt",
-   "bytes": 22097876,
-   "sha256": "6e3c6ff82d72e04ee2b5d3a04b25a997d42f3e0b3cf01c32290c3a4aa19f9e3d",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_moment_D_stat_seed123.pt",
-   "bytes": 22097909,
-   "sha256": "355f8d0963e9dea75bc63aa3cdda4c2b0a1726b11e21a8be0ef8a135692d17d8",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_moment_D_stat_seed2024.pt",
-   "bytes": 22098048,
-   "sha256": "c32b969f7e28de6aa0a9b0f1fd54b6fe185dba5cb8ea3952ae98289bafbc39db",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_moment_D_stat_seed42.pt",
-   "bytes": 22097898,
-   "sha256": "d6dc7fff155289d74dd2a9ea99bc0d2ec1ea03daa67da9f666299fa9dcfbafaf",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_moment_D_stat_seed456.pt",
-   "bytes": 22097909,
-   "sha256": "edf21517fc58e9232b316e44b90e5fef64966ee109c860edc6fe9c24a0900cf5",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_moment_D_stat_seed789.pt",
-   "bytes": 22097909,
-   "sha256": "a966c204c242def9a4ee4b73139135421d531829174323467373d881ec58babb",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_sorted_seed123.pt",
-   "bytes": 22097887,
-   "sha256": "0d0fb198d7edaef6a760d44dafe8e32271adfc19bde99685064ea0643b06c048",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_sorted_seed2024.pt",
-   "bytes": 22097898,
-   "sha256": "076704936f186047fb18ebfc2f7eb4d09e731c395bce8905e2de42286035540c",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_sorted_seed42.pt",
-   "bytes": 22097876,
-   "sha256": "40966086df76b2d0c1f97cf1ee508ec53c1dc5810f17afcc262bce49a551221b",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_sorted_seed456.pt",
-   "bytes": 22097887,
-   "sha256": "27e54b0fb39d4d09203822c505a689738e07d14c03496a9a7c95cf13bc95dacd",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_sorted_seed789.pt",
-   "bytes": 22097887,
-   "sha256": "ee5247408abb5a16002da9ad3be40afd270e6b61142938035f60c2b8eafe6159",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_stat_seed123.pt",
-   "bytes": 22097865,
-   "sha256": "fc2ee3f2b4c6e439e396e0fffe1d7bf4da510a6cc17e1b17a0cc487996eb5890",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_stat_seed2024.pt",
-   "bytes": 22097876,
-   "sha256": "31d356ae039822d8dfac6061bfeed259fec842dff1ba6b9181caf19c4d0a8187",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_stat_seed42.pt",
-   "bytes": 22097854,
-   "sha256": "4bea829fd173732575e7e18d8c152078177aa688781f179ef93614770a3f531e",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_stat_seed456.pt",
-   "bytes": 22097865,
-   "sha256": "2ac8fa07711fa11b6c860b9320301e17a39b635ad67c543fd82454cc29ac7f86",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_stat_seed789.pt",
-   "bytes": 22097865,
-   "sha256": "4413fad95923f796e5ef041b036c00a6addc268a63be0903d2eac9d1213fc431",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_temporal_seed123.pt",
-   "bytes": 22097909,
-   "sha256": "3c89bcc2570ce6097145fa4dabcce3bf3c31b5f560088673356c35fdc1617f9a",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_temporal_seed2024.pt",
-   "bytes": 22098048,
-   "sha256": "9a39971e54d498fb3b6c0195f005ac8d452a9f0e411249e8c73041a9226273b4",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_temporal_seed42.pt",
-   "bytes": 22097898,
-   "sha256": "28477992a40e710b358361d31a0d326435802f55a9d33b0189fccf7b723a2285",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_temporal_seed456.pt",
-   "bytes": 22097909,
-   "sha256": "cb4eed35f8168df7123a8b82164fde961014854bae7528a40a9a15c9c8269e51",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_D_temporal_seed789.pt",
-   "bytes": 22097909,
-   "sha256": "e2081b19b6ba29c4eaa3751feb099a81169d012e8d9c377b9c59125490c75a77",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_aux_losses_seed123.pt",
-   "bytes": 22097909,
-   "sha256": "af8ede15c73eea359ee1f79426f6b5ed99e75173166fffb936ee860f824d0ae8",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_aux_losses_seed2024.pt",
-   "bytes": 22098048,
-   "sha256": "4db6c20bdf01f3d344bb35b156c764a64b7062fab871951ccf55f1afc8dde65b",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_aux_losses_seed42.pt",
-   "bytes": 22097898,
-   "sha256": "ea8cd3abc95bb4ee7a044fd3ea7dba8ff70347977244032e4370d222736bdbd9",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_aux_losses_seed456.pt",
-   "bytes": 22097909,
-   "sha256": "cbc08e494fe66af1f6935c6614d8284a853c352dbc4ab3ad6e9bcf28e1ea647d",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_aux_losses_seed789.pt",
-   "bytes": 22097909,
-   "sha256": "eac913544a4324f0fd0759a8bebb8659995c6033d1ac1aa9c06bbfaa2266d079",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_calibration_seed123.pt",
-   "bytes": 22098048,
-   "sha256": "dc98a2db7c59591c332f4528cef297f8577f81483ffd2d20aaac4cfefca93a57",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_calibration_seed2024.pt",
-   "bytes": 22098059,
-   "sha256": "26048189185bc071ddd9edb69199ffd7dbecb33427b94de8b9217fac9089e9d3",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_calibration_seed42.pt",
-   "bytes": 22097909,
-   "sha256": "e2fcaeed95b64a2a99fee0c833e11cea73366a39ebec37114d893ef7a727014e",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_calibration_seed456.pt",
-   "bytes": 22098048,
-   "sha256": "9b6125b4336c5cbdb69f562309117928199583f47c94edfbb23f984059494261",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_no_calibration_seed789.pt",
-   "bytes": 22098048,
-   "sha256": "f63ba5469e7ba1b5d6742a92e282e24de6ce5b40584c06a00ba84e431bd083bc",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_rank_D_sort_seed123.pt",
-   "bytes": 22097887,
-   "sha256": "2a23839128f096f2d68adb8ba27a37e813af61f57a2524ddc8c7119dce33ba34",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_rank_D_sort_seed2024.pt",
-   "bytes": 22097898,
-   "sha256": "7bb29b1ce0c6a86a367a16d1443af9cc94f83b47eafc5c00fd298d5607c25718",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_rank_D_sort_seed42.pt",
-   "bytes": 22097876,
-   "sha256": "e1e77e82f9e29f5dfaba63402af1d3fe63dbe24aeeb8558a3be7c6ad7ab4e894",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_rank_D_sort_seed456.pt",
-   "bytes": 22097887,
-   "sha256": "8ec22c64f48f8229b5c9f0c25c2ecd8ac711d5a59dbf594060b1bc5623ec63cb",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_rank_D_sort_seed789.pt",
-   "bytes": 22097887,
-   "sha256": "420180c9bcf565affd2fbbc435cf726e29f3ab2f349479e06f2195d2c75c70ed",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_rcgan_seed123.pt",
-   "bytes": 868749,
-   "sha256": "de639614dd32e13492b87f1d2eda776ed486f05286c044a293df5502dcaf1050",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_rcgan_seed2024.pt",
-   "bytes": 868758,
-   "sha256": "20f4044cc5d2dc02a040abee86264f366fe5a4cde5dbc8b1820174cc029fd4bd",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_rcgan_seed42.pt",
-   "bytes": 868740,
-   "sha256": "6a15a29a43cae4da32cc177bdef22682cb029b9b3df9c57c43522005bffaafa5",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_rcgan_seed456.pt",
-   "bytes": 868749,
-   "sha256": "2c0622eab1cb24a3f33b75612fc5068a9fdf1be9627fecba6753f8ab9911815f",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_rcgan_seed789.pt",
-   "bytes": 868749,
-   "sha256": "866f6192fa8dfff124c931a9d624f43265842d12608d16ed9ae1eeea01d9384a",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_timegan_seed123.pt",
-   "bytes": 1396508,
-   "sha256": "2ba1fdaccf3b58661d4e9a2e5ee66600465a41be6fe841126fba750b956a9119",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_timegan_seed2024.pt",
-   "bytes": 1396593,
-   "sha256": "23101fb87ebefe3e5bc0af8215cb0f932f64c0cfa86aea279fcfab02294addfc",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_timegan_seed42.pt",
-   "bytes": 1396487,
-   "sha256": "778da33432683edde1be929b43d1982bf55d2357cb4ce4f0bd87bcf274f70ed7",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_timegan_seed456.pt",
-   "bytes": 1396508,
-   "sha256": "d11cb2df92c8b92f7fcc34c745ce62b0e4223b99cfedbcfeda77841bac4a8814",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/lhasa/lhasa_timegan_seed789.pt",
-   "bytes": 1396508,
-   "sha256": "cb98c07403a02487c1784e2526f3e647038d011a5b4f9d432c6f56ae0d04a674",
-   "archive": "weights_lhasa.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_fixed_lambda_seed123.pt",
-   "bytes": 22098048,
-   "sha256": "4f3a099f75d74d3648a4a43e541419ee06c21c43ecca149ef9405ad318a324c9",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_fixed_lambda_seed2024.pt",
-   "bytes": 22098059,
-   "sha256": "25091db7f65e98b33c4cf3f42d103fe5dc9db50ee78bbf60d0597ad33df0aeaa",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_fixed_lambda_seed42.pt",
-   "bytes": 22097909,
-   "sha256": "c01526b56c29ae6c5c72f8feb3754188476c6fd8847195fb4fd75f5edfeda8b9",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_fixed_lambda_seed456.pt",
-   "bytes": 22098048,
-   "sha256": "0f4a14781804139659867e4213bfefb9c784c8306aa6cb0cbb985fd4945fec1c",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_fixed_lambda_seed789.pt",
-   "bytes": 22098048,
-   "sha256": "ef13b27527968ec86c0e36b9bfad0ced4ae7423cb6edb8b102f0ede9a51506a5",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_full_model_seed123.pt",
-   "bytes": 22097898,
-   "sha256": "e1202be3463698c494144d6de1070cdb7c6ec0c113ae3d7f6cdee399c2914fe5",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_full_model_seed2024.pt",
-   "bytes": 22097909,
-   "sha256": "0205b6fd13b4f78cd0873b58ebd540f0003e43bf5e9b712cc07fe058c6ae1664",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_full_model_seed42.pt",
-   "bytes": 22097887,
-   "sha256": "3f31d073313ce45a00312f18d965d036ee891ad613219661b126f15fed9c7b45",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_full_model_seed456.pt",
-   "bytes": 22097898,
-   "sha256": "a1761208109a4443d27202bdf09b6c6e29c0ee3c97c35d42c1ac7fb192f59cf0",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_full_model_seed789.pt",
-   "bytes": 22097898,
-   "sha256": "9d0ec62f6a9902d35eddc49ddb836d59f115c751367404801ec8deac315af0b1",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_moment_D_stat_seed123.pt",
-   "bytes": 22098059,
-   "sha256": "fd0fb02a8cbed40fb3d9b63e19810efe45b34f68d75a428d13cd8c9048ee49da",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_moment_D_stat_seed2024.pt",
-   "bytes": 22098070,
-   "sha256": "aef0f5fd4c8a03d1c7a7794e040f01c10567df218e3cdc6faf8287b277e154c8",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_moment_D_stat_seed42.pt",
-   "bytes": 22098048,
-   "sha256": "df38e0355ef0ffd6a26bbff2374d76fae807fe5fdfa4b54624c8d620c05e4956",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_moment_D_stat_seed456.pt",
-   "bytes": 22098059,
-   "sha256": "979e0ae160bf3b3e61d87f881ae825d153c9658e2f597973a71b95f862d2a8e8",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_moment_D_stat_seed789.pt",
-   "bytes": 22098059,
-   "sha256": "cc85a1a370c666b4ab61fa43c111699f694d594a9ff0036b310f02f29293f26b",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_sorted_seed123.pt",
-   "bytes": 22097909,
-   "sha256": "449f733649b966b7729d3fea52e8bed8b8c5fb47492ebddc22ae9b3be756da25",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_sorted_seed2024.pt",
-   "bytes": 22098048,
-   "sha256": "f955a23221dd14e8c0514755f10ecc915d76b41d81906b870da6d0a7b08578c3",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_sorted_seed42.pt",
-   "bytes": 22097898,
-   "sha256": "6289195f38300f1f526cd4940edc061978adcdb660d96dc1e9c9161930ea7714",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_sorted_seed456.pt",
-   "bytes": 22097909,
-   "sha256": "45dc55d66208dced65bbd98de1cb2e2b96d269e0ec7604f442b80bb447fd52d7",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_sorted_seed789.pt",
-   "bytes": 22097909,
-   "sha256": "fcabed42dde92b74a737d0d81196fe3cb53d2eb816980cb3d9dee63b669c6c31",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_stat_seed123.pt",
-   "bytes": 22097887,
-   "sha256": "5b715218212dfb7a5de8d9831208a6074d42a62de8c18d3b058ccb629b7138d4",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_stat_seed2024.pt",
-   "bytes": 22097898,
-   "sha256": "49b7780ab14dfae1139b35bce42ac0c48d34faf4c3ba13834c753ef4afa49c09",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_stat_seed42.pt",
-   "bytes": 22097876,
-   "sha256": "d40c8420f0925559c56650509b0099ed545a146e67e7a3c644db6c04bb464084",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_stat_seed456.pt",
-   "bytes": 22097887,
-   "sha256": "316dc8cf24306841122fbc20b99310bef392c65b5f2cc5cb360aad51a8cdebc6",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_stat_seed789.pt",
-   "bytes": 22097887,
-   "sha256": "1e5e353152c461f3fe580f1338161db795757bd197736fdc8acacdf803514e2d",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_temporal_seed123.pt",
-   "bytes": 22098059,
-   "sha256": "f2b27ca618412b4832be23410a2e122b51a8e3a651c6c2eff1613f2f387fb0b4",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_temporal_seed2024.pt",
-   "bytes": 22098070,
-   "sha256": "dcedc8591397cb5783b4d12b46edd673d0e5c7af8cb624f60d51cc795f7783ad",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_temporal_seed42.pt",
-   "bytes": 22098048,
-   "sha256": "1a4a955ad1e9102df74775b1ca8abd18862de3aafa511ad0ec4071db3919d431",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_temporal_seed456.pt",
-   "bytes": 22098059,
-   "sha256": "27dfbc0a72c594b57502f4318b7c6bf9bdf35dcf3c56c57d07677cb84eb181fb",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_D_temporal_seed789.pt",
-   "bytes": 22098059,
-   "sha256": "cf06935fa324187b07f83045164b1cd3b6b03d84b936a31e4e5a24b33cc839ad",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_aux_losses_seed123.pt",
-   "bytes": 22098059,
-   "sha256": "9a6ed5e4d336cd22005722467c7ffa02a2dfe740d7d3f0b0924e0ff299dd93a7",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_aux_losses_seed2024.pt",
-   "bytes": 22098070,
-   "sha256": "0a4142cb5d83f12bfc29c2abf0dd5a811a865bbabbf79d49a8ee249bd476bcce",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_aux_losses_seed42.pt",
-   "bytes": 22098048,
-   "sha256": "cdc83956138ecc26241722f32c89f9d03992afb1f34f95043d2e6ff3d38bbaec",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_aux_losses_seed456.pt",
-   "bytes": 22098059,
-   "sha256": "4ce1c8d47a371f0dd1d3dbee5d35d4906bcd5ba874693b156ccebf2a34b2ffce",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_aux_losses_seed789.pt",
-   "bytes": 22098059,
-   "sha256": "452fb24b4c5e62d26ca949af7a8df236c9470d5708676c73d0bb314c634f0998",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_calibration_seed123.pt",
-   "bytes": 22098070,
-   "sha256": "a4314b2beb94d5bae18bc55e891ab12186d18de0d021961db0f7b606c3d14992",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_calibration_seed2024.pt",
-   "bytes": 22098081,
-   "sha256": "fad5b09408186a6a52283b1b545655799720b1fa3522a23f490316a0afb673cb",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_calibration_seed42.pt",
-   "bytes": 22098059,
-   "sha256": "05c916c6322bf780146b9c55a06cc8547cef8ccec5abb8f291e92804d1221bb5",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_calibration_seed456.pt",
-   "bytes": 22098070,
-   "sha256": "cd5ee677ecab83c05353af94339b677b6bd713965830b184a930d08f396d01fa",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_no_calibration_seed789.pt",
-   "bytes": 22098070,
-   "sha256": "ed6608e9859f172a576e1da5d184d109f729cc3ad42ba67be6b8438834cb2413",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_rank_D_sort_seed123.pt",
-   "bytes": 22097909,
-   "sha256": "361e8e5547388ea959adef56a3539610c820a3df11a5c9092ff71e5edefbdfd9",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_rank_D_sort_seed2024.pt",
-   "bytes": 22098048,
-   "sha256": "6a1fce852fca4e162c88723c657ec0e60be6aa1caf154822b8fe69b38f16aa59",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_rank_D_sort_seed42.pt",
-   "bytes": 22097898,
-   "sha256": "5222cdf030c661886492ebb9392345eca4e9222060a2367d1ac7a16a4d9c542f",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_rank_D_sort_seed456.pt",
-   "bytes": 22097909,
-   "sha256": "3ee64219ee87bd93fc89812f56d26c8c89c36e2c93ce3c7aefba92fe17d5a145",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_rank_D_sort_seed789.pt",
-   "bytes": 22097909,
-   "sha256": "b43bdbdb59d6b6043db5409c2a06405c924e2e04aa774ccb9da73223ac0b4191",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_rcgan_seed123.pt",
-   "bytes": 868767,
-   "sha256": "f7538c4efed684b50a27858fd4936dcf15be6695996a6bed8f811cabaafc7bb7",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_rcgan_seed2024.pt",
-   "bytes": 868840,
-   "sha256": "64f55a86176cf43d53cb9eba67176a9c85fe340cd2f99ab9cfb1ca7e3811baa1",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_rcgan_seed42.pt",
-   "bytes": 868758,
-   "sha256": "9b64193d1c8a2267cae58455a03e94cb8e5530441c5da30046abf3f6f1c136fb",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_rcgan_seed456.pt",
-   "bytes": 868767,
-   "sha256": "dd0b7492ed3b40117766d01a106b6012aff7b29ded9483f35a5c00694cdfa045",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_rcgan_seed789.pt",
-   "bytes": 868767,
-   "sha256": "73dee856db9d7ac90ca4ed9dadd2fa771fab069d38733fefa99264609c77d4bd",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_timegan_seed123.pt",
-   "bytes": 1396614,
-   "sha256": "2a5c60ddb4ce97b1cb1d65cdd55f1a3f2723925e9b542caa519b34ec063e09a4",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_timegan_seed2024.pt",
-   "bytes": 1396635,
-   "sha256": "f3daaf8cb85663d8f65a42b7247e6ba0e41112f32d218693ddbeb269de97e893",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_timegan_seed42.pt",
-   "bytes": 1396593,
-   "sha256": "b3db87057074ebda093e134edac565fb61138619a67dbcd4cadadbfc9c3e34a3",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_timegan_seed456.pt",
-   "bytes": 1396614,
-   "sha256": "b3492d02066b1a1526a04af52bcdbd30d591f8c8c6237538fc1eddfd4b77211d",
-   "archive": "weights_yakutsk.tar"
-  },
-  {
-   "path": "runs/yakutsk/yakutsk_timegan_seed789.pt",
-   "bytes": 1396614,
-   "sha256": "f1c864f4476e00181c158dc5b53949f7b3241a288c15a671e1073a6f18e6b4e1",
-   "archive": "weights_yakutsk.tar"
-  }
- ],
- "total_bytes": 5028671257
+  "note": "Generator weights (state_dict, fp32) of all 275 frozen runs. Not in git. sha256 values are those of the frozen MANIFEST.json; sizes as recorded on the author's copy. Archive sizes and sha256 are filled in by tools/assemble_release.py when the archives are built.",
+  "record_id": "23480462",
+  "doi": "10.5281/zenodo.23480462",
+  "url_template": "https://zenodo.org/records/{record_id}/files/{name}?download=1",
+  "archives": [
+    {
+      "name": "weights_ankara.tar",
+      "bytes": 1005772800,
+      "sha256": "bd40d4807f1856128919cb5a0117fbb728b9a0a8b0d4fe4ca0c2c907304f046e",
+      "members": 55
+    },
+    {
+      "name": "weights_bergen.tar",
+      "bytes": 1005772800,
+      "sha256": "77b1946484413095b545539f44aa42022eef1093ba00d0a450c89d7e38650a92",
+      "members": 55
+    },
+    {
+      "name": "weights_dubai.tar",
+      "bytes": 1005772800,
+      "sha256": "c45dd08618409ce64bd7d1b7ce96beb045db23c63d2fc0a0afb426834f5bdfdc",
+      "members": 55
+    },
+    {
+      "name": "weights_lhasa.tar",
+      "bytes": 1005772800,
+      "sha256": "9a96cd0a2f701e47cb4765a6b3a3cd6ae3f6d5eb2d014794059f8e72675af226",
+      "members": 55
+    },
+    {
+      "name": "weights_yakutsk.tar",
+      "bytes": 1005783040,
+      "sha256": "b34fe6dd0c8e3f88e30e033161795ed55b4d25eded964bc2536e50912835abfb",
+      "members": 55
+    }
+  ],
+  "files": [
+    {
+      "path": "runs/ankara/ankara_fixed_lambda_seed123.pt",
+      "bytes": 22097909,
+      "sha256": "a17d459ed83bd555a89ad4f4a72571f3cb8722cdd08da66e3c1faa7da27e85cc",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_fixed_lambda_seed2024.pt",
+      "bytes": 22098048,
+      "sha256": "0fef2974a2e27d22a26284201f25ee33f049bf973af5caec5f612c7237b6e718",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_fixed_lambda_seed42.pt",
+      "bytes": 22097898,
+      "sha256": "0e45c5fed4fcada69f9295378ab29950330f0b9c59648865cce04f4460e640ff",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_fixed_lambda_seed456.pt",
+      "bytes": 22097909,
+      "sha256": "48720d6a922a76934bb7e4cd62daaa8c84ffb3c3134a97d56e09ab73488ef9b4",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_fixed_lambda_seed789.pt",
+      "bytes": 22097909,
+      "sha256": "47ff3248175da56611fd98de8d6a1a2064b8b525a25126f5094e3183d40a507f",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_full_model_seed123.pt",
+      "bytes": 22097887,
+      "sha256": "2f4ff8366bdea5e0e97bfe2c9b1e12d3c84f06b52b9b8535e30fd04b58f343e1",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_full_model_seed2024.pt",
+      "bytes": 22097898,
+      "sha256": "923780071648b33092e11a7ae65aeac5a9c38ee50550e94337458852b4455768",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_full_model_seed42.pt",
+      "bytes": 22097876,
+      "sha256": "0e200b4fe92e58ec5e612032f2f5be5728427001f3afcccfeb279149e6717973",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_full_model_seed456.pt",
+      "bytes": 22097887,
+      "sha256": "b50fda9eafc5d867a402d8c7c443da8d706b9636d3d8bdab824b6618eed2da98",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_full_model_seed789.pt",
+      "bytes": 22097887,
+      "sha256": "ee25dc8500a44746c524df5ca7eb6e165ffda5b955c695f449710cbd983d6546",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_moment_D_stat_seed123.pt",
+      "bytes": 22098048,
+      "sha256": "7556015dcb2a4640d8f23a8035327bf748b7204ec587889ac9a8a6c7b8fe3551",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_moment_D_stat_seed2024.pt",
+      "bytes": 22098059,
+      "sha256": "fce67c6e11175496372d60ae62ef0b749a8e484080ff0571dda21dce61d3d843",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_moment_D_stat_seed42.pt",
+      "bytes": 22097909,
+      "sha256": "86b1c2d5720c1c19ad2ef3016bfcf3eb59c3b2edf97ede71b2a1a86b327f0a21",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_moment_D_stat_seed456.pt",
+      "bytes": 22098048,
+      "sha256": "d6f2d62ffc3219df000b4d94a2c7a35cbc2b179bfafeafe3d5f509a1159b2d99",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_moment_D_stat_seed789.pt",
+      "bytes": 22098048,
+      "sha256": "3034119706745e4c9990182ea28c9de6297a37b2d73aa0de0d4ea8eb460fec35",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_sorted_seed123.pt",
+      "bytes": 22097898,
+      "sha256": "a1f5b7a4025b14c8d09ac6c426aeb4dd8f517257691e6cf67b7ee778611ded7d",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_sorted_seed2024.pt",
+      "bytes": 22097909,
+      "sha256": "29c08a80111586dc8ab86d3dd832a92b1258c94ff62f820a2366681fc5873aa1",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_sorted_seed42.pt",
+      "bytes": 22097887,
+      "sha256": "e7c66e6c02ccf17248513b9ff1398ef4738332b1d818c9badd58b73520b5e009",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_sorted_seed456.pt",
+      "bytes": 22097898,
+      "sha256": "c54406ebe9f3107ada5518b7caa0dca13417aa53a5e0785a9fb0bcdae932b9f8",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_sorted_seed789.pt",
+      "bytes": 22097898,
+      "sha256": "2f29cccfe0ff6d174b1b1e84a09230dbdef2559b25bb7d145c0aa39bcb09c783",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_stat_seed123.pt",
+      "bytes": 22097876,
+      "sha256": "117032d2bd4ed84ecd4db33e0151b38bcfa4cb0b1a2b5d5a1103ae6fe2e721d0",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_stat_seed2024.pt",
+      "bytes": 22097887,
+      "sha256": "925c112c30c1e528622314402afd2717d37e4403534175ecf77d60bc0f088f4c",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_stat_seed42.pt",
+      "bytes": 22097865,
+      "sha256": "f075b535946bd761035cb8212d8d3ceb4284800a69c07ef84f3d41bdc8323616",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_stat_seed456.pt",
+      "bytes": 22097876,
+      "sha256": "80a59c40b01ff3a9fb96250cca76f054ac416b07880e3b3e9b3d2a6f3a227adf",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_stat_seed789.pt",
+      "bytes": 22097876,
+      "sha256": "8b2433e6045f0f75baf34c5e67e171cc20debac0b4b3c2dd99bdf617fbc8f422",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_temporal_seed123.pt",
+      "bytes": 22098048,
+      "sha256": "f7be23096fa53e80c46e893131702d980fd047cb34f5673140c477a7d2e0aa1c",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_temporal_seed2024.pt",
+      "bytes": 22098059,
+      "sha256": "a11d853cbfcc6370da370ea91bbaf728ad250902b128cab95dc8ad2004dd33e9",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_temporal_seed42.pt",
+      "bytes": 22097909,
+      "sha256": "af9bb56254bec5bc3192151eb72e908d2ffed3922be536d42faac7786920b4c4",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_temporal_seed456.pt",
+      "bytes": 22098048,
+      "sha256": "bdcfe1b6a9c44ca5d6a8510c8666d08cf2755f566c5b8a832add17e4d91cba19",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_D_temporal_seed789.pt",
+      "bytes": 22098048,
+      "sha256": "90529fe98c1dce0cc4c8b18f5c6b3554f9944f1e78702b2b0faecce51b966723",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_aux_losses_seed123.pt",
+      "bytes": 22098048,
+      "sha256": "0fcf696d2d831b8cb3c007f0158b089485ea5adbad0633cbfe1633b6a5382634",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_aux_losses_seed2024.pt",
+      "bytes": 22098059,
+      "sha256": "7e25c566728933142083c3a5f901cfaa1934ffba91e969d118177913e152351b",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_aux_losses_seed42.pt",
+      "bytes": 22097909,
+      "sha256": "2d5e224f98c5baf65c63283cc38e7648b45edfa44e2977b32d90392f6a619360",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_aux_losses_seed456.pt",
+      "bytes": 22098048,
+      "sha256": "8b31096fd1f6570d8fec046159092c7303f4ac7e6cf908dd65ba1b183018a359",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_aux_losses_seed789.pt",
+      "bytes": 22098048,
+      "sha256": "2915186ce5c5533e0c10d30efc9cf1e3ffb4720f55ce38cdb14343f8feb43d52",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_calibration_seed123.pt",
+      "bytes": 22098059,
+      "sha256": "8e32d52fd415a1ba04b4519d3bf72c4b4d0c3785b64b344259132390ca55ca76",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_calibration_seed2024.pt",
+      "bytes": 22098070,
+      "sha256": "c6e6138fb3f2a5a6891c6f79a217d3e02ee0912333b65b61a953dbb64a84345b",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_calibration_seed42.pt",
+      "bytes": 22098048,
+      "sha256": "9d312944f1d9c1061d38e27ffba0b6cf0df1692b989b6a802f2c3e5124214d50",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_calibration_seed456.pt",
+      "bytes": 22098059,
+      "sha256": "b93b8895bcf6e9fe7fff66c54a4579c5165928f0ad44157fcc8935f37f9ab892",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_no_calibration_seed789.pt",
+      "bytes": 22098059,
+      "sha256": "35fc9185e5cb885b0a121e4eb6cf79578d2bcc4869f808165d5eab792a546005",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_rank_D_sort_seed123.pt",
+      "bytes": 22097898,
+      "sha256": "3f6df9e2649cce65bc0bca0412e65a003f4cff30b6c94ea8d0fcbbce8e3c605d",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_rank_D_sort_seed2024.pt",
+      "bytes": 22097909,
+      "sha256": "8c19fc3c35641b1de56aea13446546ed9bb55ecc6e6feaf436a0f144aa51da96",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_rank_D_sort_seed42.pt",
+      "bytes": 22097887,
+      "sha256": "9cf791deb94eabae612fea41cb7470e217f47fa309321b5b6635e66f7a410476",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_rank_D_sort_seed456.pt",
+      "bytes": 22097898,
+      "sha256": "29c98c876278521db889deed449c50254ebe8fca03ada51ae3a960ed49d9951a",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_rank_D_sort_seed789.pt",
+      "bytes": 22097898,
+      "sha256": "cd8ba510282431d25cb7e82d33a902156e2c0f4db7a96e7e975ac28072675f78",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_rcgan_seed123.pt",
+      "bytes": 868758,
+      "sha256": "cd740146b074c14a278c039463f5920602438083e58c9bf9d3a12e99d74c4a6e",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_rcgan_seed2024.pt",
+      "bytes": 868767,
+      "sha256": "bf64a40089522ebd06e7d2d1fab541572c2bccfcfd2985aef8e22b013aa23799",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_rcgan_seed42.pt",
+      "bytes": 868749,
+      "sha256": "3630488f1278bf55278f96255c8814b9e38547ec317f0d8acd75731a2a52965b",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_rcgan_seed456.pt",
+      "bytes": 868758,
+      "sha256": "b56c5605eeb3af4e0a608642e74ac6764c9dc8be3dbece64b9f49b9a3ac0e2c7",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_rcgan_seed789.pt",
+      "bytes": 868758,
+      "sha256": "ba16db03cd56a548d79a0e03c883f4753b6365822d1a0f24ab68a21d5f0543fb",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_timegan_seed123.pt",
+      "bytes": 1396593,
+      "sha256": "49d529daa8635695cc1bd951d26363ba1837c3655ecac6ea0d6575f678ce9db7",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_timegan_seed2024.pt",
+      "bytes": 1396614,
+      "sha256": "e0d6278b21fd82fbf69c01b1235a92aa68de0806d1cd07250b7190a8dfdf2415",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_timegan_seed42.pt",
+      "bytes": 1396508,
+      "sha256": "7db6f9e9a3552a4ed263269f4201bc9dee1fcdd89e4baffa3f789dac51cc215b",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_timegan_seed456.pt",
+      "bytes": 1396593,
+      "sha256": "490ae13d4690879609b9385ec56fef40e29688b63218dd3b742cf180689e804a",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/ankara/ankara_timegan_seed789.pt",
+      "bytes": 1396593,
+      "sha256": "d3f104bd1c7e0726b69d042ba30d544104c1d4816d902c34669a392fd35f20ba",
+      "archive": "weights_ankara.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_fixed_lambda_seed123.pt",
+      "bytes": 22097909,
+      "sha256": "b0e73f67e8d6c540aefcbf6297e1562aedc12bdccd57566e12e0b06262ab8d90",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_fixed_lambda_seed2024.pt",
+      "bytes": 22098048,
+      "sha256": "4a49783fe829087cfbd35b976f1f33898e3f96581c1a9f24c561f9200b852789",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_fixed_lambda_seed42.pt",
+      "bytes": 22097898,
+      "sha256": "e534ba946ca0a1e9bd931e4bc2aacbdbdd43556aab0eaf2c3ba74a1953142bbb",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_fixed_lambda_seed456.pt",
+      "bytes": 22097909,
+      "sha256": "9ded7993953a74caeacec016a3effed3510c6943000a4b3c2430805990e09276",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_fixed_lambda_seed789.pt",
+      "bytes": 22097909,
+      "sha256": "785fe18df74838ddea5a3360874cded29c1a44e94bea4cacf9d4e1d4c3a38277",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_full_model_seed123.pt",
+      "bytes": 22097887,
+      "sha256": "1a5b15c9f23d1f72a7907d3595e1616e412b8c6334e9f5e99458f00605c0d856",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_full_model_seed2024.pt",
+      "bytes": 22097898,
+      "sha256": "34aeb2857f5d6befae5054e8107f8677d2f4c5912c7e00d296856575b1a7b738",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_full_model_seed42.pt",
+      "bytes": 22097876,
+      "sha256": "3a1178c078b3cfc47e2aa1d349a54d295d99ddf52d734d870ca5a65214f2515d",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_full_model_seed456.pt",
+      "bytes": 22097887,
+      "sha256": "bead9911079c7242e6cbdab5d8001dd69417d9bbc106c07f091ba1c0a142e5b1",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_full_model_seed789.pt",
+      "bytes": 22097887,
+      "sha256": "af413d543d33b63f181dd859cecb70a2ffa2121404de92af265b1744ee3f9121",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_moment_D_stat_seed123.pt",
+      "bytes": 22098048,
+      "sha256": "a41f8b08c9a37cedb533ebcc19c8bfc270371b6f526296e165119099419e111e",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_moment_D_stat_seed2024.pt",
+      "bytes": 22098059,
+      "sha256": "046d6f76164351664198be5b04bc55b466c19b5b969f6a706fff513b68ce32fa",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_moment_D_stat_seed42.pt",
+      "bytes": 22097909,
+      "sha256": "cefcac054d31782a02c1e05c083940105a148c6073c15a72180003cfb0f9091b",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_moment_D_stat_seed456.pt",
+      "bytes": 22098048,
+      "sha256": "7648c72a786639435c039f700fea7340373d2f49f1b7ebecf4c88f742675df0e",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_moment_D_stat_seed789.pt",
+      "bytes": 22098048,
+      "sha256": "32082886d11e0d914acf87e52ccba8568a3b84f5c5dc7a135e1c41b1457cdd15",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_sorted_seed123.pt",
+      "bytes": 22097898,
+      "sha256": "e91f08849df8bcaa9e8f0a5b6476c7e955e302f43801cf02e8c115986b51b672",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_sorted_seed2024.pt",
+      "bytes": 22097909,
+      "sha256": "e6f2fe34a12096809940cc7277b0b1b1ed417e8c6918e417689e9f6a6117aaf1",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_sorted_seed42.pt",
+      "bytes": 22097887,
+      "sha256": "b69262f210bc4c6eea3af9d20c5853613125f02b1dffc629820d929d3c7b14a3",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_sorted_seed456.pt",
+      "bytes": 22097898,
+      "sha256": "207c255a81a4790821aa56dee6577bead69e84b3f5819e5cdcdb72425cc9aa57",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_sorted_seed789.pt",
+      "bytes": 22097898,
+      "sha256": "ab4a53dcabb7c5480da9df8a7367519016a65ce1643b556dabbdd573cc864eed",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_stat_seed123.pt",
+      "bytes": 22097876,
+      "sha256": "0397a7a7138a19d2fc9494bdff3a341bbdaea43ced44a088e0cad2a2a9255562",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_stat_seed2024.pt",
+      "bytes": 22097887,
+      "sha256": "a667e4511eb3053daad6a813ec7a6ead4f3ebd29d564c84fa3812ae1c11b6ecf",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_stat_seed42.pt",
+      "bytes": 22097865,
+      "sha256": "77fc3df9973929e8958a5c5eebd19d22751d156b5a5b6cac178a9fa41e0e2480",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_stat_seed456.pt",
+      "bytes": 22097876,
+      "sha256": "a9134035edb6f2755ec4e55d4127d9245700c6d89e23e99a9323bda5928c11ff",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_stat_seed789.pt",
+      "bytes": 22097876,
+      "sha256": "f241a6cebfdf5608838d16c032ac6a26ae03c3eca84bad0adf194fdbd61e2ca3",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_temporal_seed123.pt",
+      "bytes": 22098048,
+      "sha256": "3ef9c505f1fafe9507b49747296a8378126340c3e11701cc35a6a7b26c959287",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_temporal_seed2024.pt",
+      "bytes": 22098059,
+      "sha256": "f3f7ae235b69c858c696e1aefcf7c6469e805d45e36e3f55372f673ce25192a8",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_temporal_seed42.pt",
+      "bytes": 22097909,
+      "sha256": "79dac24e1648b0897f73d54db91fc0c0f240e726ca83e127f41185b598064764",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_temporal_seed456.pt",
+      "bytes": 22098048,
+      "sha256": "87ffb08736244a391acd52a40c2954a618090644f22c427e04fd5af9044f9406",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_D_temporal_seed789.pt",
+      "bytes": 22098048,
+      "sha256": "2a0c4ea58857e385116b9654a2d536c62e4ee41adcea47c21dc0c9f73fba26b1",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_aux_losses_seed123.pt",
+      "bytes": 22098048,
+      "sha256": "bee56834cfeae986ab0a06d7d22efa4b9ac90e1db7b09fa13b46906706fcd22c",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_aux_losses_seed2024.pt",
+      "bytes": 22098059,
+      "sha256": "14aae6c024c48691059bd40357ac95b00561a6e09556844bc6fe67cbec222a9d",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_aux_losses_seed42.pt",
+      "bytes": 22097909,
+      "sha256": "cb6159be7621aab0c1ac42d058659897f832d6124c9f104f735369866c8cd3a6",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_aux_losses_seed456.pt",
+      "bytes": 22098048,
+      "sha256": "d26a3f0047d59437646626f92455cae755c069cac4b04b1f03384d137e4e6194",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_aux_losses_seed789.pt",
+      "bytes": 22098048,
+      "sha256": "cc8134abae6f68b413e09653c755ed751398a50a825028de6ca3e9892bd9b9fc",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_calibration_seed123.pt",
+      "bytes": 22098059,
+      "sha256": "1de84f0ebf526c6da3cd11cae97c85c3f36e02033208fe35c2c85468f4e118b4",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_calibration_seed2024.pt",
+      "bytes": 22098070,
+      "sha256": "0da7b517614f6212f0e997df87e8f93032a54222cdb574d3ddb6384b1e5bd583",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_calibration_seed42.pt",
+      "bytes": 22098048,
+      "sha256": "0d68d38799ce1335e2527f44f860e0c3fe77dce13895e51275aa2fe4945e6745",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_calibration_seed456.pt",
+      "bytes": 22098059,
+      "sha256": "5bb7409f45f847bcea5af0e5ab671fed5ff565ae86771f5bbfb0e047fc7d45e6",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_no_calibration_seed789.pt",
+      "bytes": 22098059,
+      "sha256": "c7c3611a13d69a2da2c59afd594f30a127b210c3e22d9f0b663756519334a484",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_rank_D_sort_seed123.pt",
+      "bytes": 22097898,
+      "sha256": "51c3ed11acfb5de8c6a8ddc6b416511a44cf5437997d6a3b7903c62099db8573",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_rank_D_sort_seed2024.pt",
+      "bytes": 22097909,
+      "sha256": "b56d404d4e062422a620f8758d4cd445d0f2c975a3e3fd3e0cf3f6c3f8e5bd9e",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_rank_D_sort_seed42.pt",
+      "bytes": 22097887,
+      "sha256": "d93d7e83ca310b953578fb5ca3fc5b1c9a50106da482429e3f0f660a2f55dd9d",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_rank_D_sort_seed456.pt",
+      "bytes": 22097898,
+      "sha256": "9b9460b8c9c396efe4fe7c36a3f49b5009d681c5eb9d21675434df98251fca43",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_rank_D_sort_seed789.pt",
+      "bytes": 22097898,
+      "sha256": "87889f4fc4bfdc355e594dca88217d8f64670b08a77b8a8153e72ba096d9d9ea",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_rcgan_seed123.pt",
+      "bytes": 868758,
+      "sha256": "8e7b4c2e7bc12a16ce72f36debad1d8c8e77868b9f28d362b30f9794fe05633a",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_rcgan_seed2024.pt",
+      "bytes": 868767,
+      "sha256": "7076d38194829762aa59811965a052244dcbf03cc2a5904b3c36396d0d1fd533",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_rcgan_seed42.pt",
+      "bytes": 868749,
+      "sha256": "74a55b4e5e7701d860d3dff927cc28cb4e55bc38a666b6bc4c6ac3f63b3ced7a",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_rcgan_seed456.pt",
+      "bytes": 868758,
+      "sha256": "e24ce80c10cfd972da8ddb669bb4fb9b6a03ac7612868c48300b8fe97bdc21f8",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_rcgan_seed789.pt",
+      "bytes": 868758,
+      "sha256": "420681dafffef44177bf7e630c52d964160151de3cc117ae3836168551dc6c9a",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_timegan_seed123.pt",
+      "bytes": 1396593,
+      "sha256": "36da14795bb8d1ddf5a493de6471689ed853e1b9ed8864aeead3813d2acc9555",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_timegan_seed2024.pt",
+      "bytes": 1396614,
+      "sha256": "2913ab87eb9c185ffca0cb5e840b4da0c73f90a57e930b9f667be90137af8ad4",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_timegan_seed42.pt",
+      "bytes": 1396508,
+      "sha256": "6708e1fac22dde215db7d5a537740987f7d4ed6eebd2a80a978a6a84a05b9fed",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_timegan_seed456.pt",
+      "bytes": 1396593,
+      "sha256": "fe92a3f41bffb6e25467273a71b6e8c1d8802757453bf8282949837407a0ed9e",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/bergen/bergen_timegan_seed789.pt",
+      "bytes": 1396593,
+      "sha256": "03f2686dfd5ca657abc257726dcf402d07822ff8f4bb6ac8d6e64acf1d6d9d55",
+      "archive": "weights_bergen.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_fixed_lambda_seed123.pt",
+      "bytes": 22097898,
+      "sha256": "b0a760874cd63e1e008f83e0a51d8de1a74bb97b9286b6e587611261125b6ec5",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_fixed_lambda_seed2024.pt",
+      "bytes": 22097909,
+      "sha256": "a89a34563260569c98116258d83ba974ff26640e002e51c065aaca15b69c1552",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_fixed_lambda_seed42.pt",
+      "bytes": 22097887,
+      "sha256": "0e8a2c465d4463a1f1449c22726a12158ab17e87715030377e0eaf90d5c5606a",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_fixed_lambda_seed456.pt",
+      "bytes": 22097898,
+      "sha256": "940d524ccc2aeab4bb96857ba465825212cf69a0f16de952ea87a5321a03bf9d",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_fixed_lambda_seed789.pt",
+      "bytes": 22097898,
+      "sha256": "c152e02e2de4240f0b579fad9693a99da402981b305c1fd11b0c7703f1ffb8a9",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_full_model_seed123.pt",
+      "bytes": 22097876,
+      "sha256": "07ed0b7bdc86e1e80433a2c8b0daa0dcbc2aa6c6c70bc87f6a83206a6bdb6a0d",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_full_model_seed2024.pt",
+      "bytes": 22097887,
+      "sha256": "4b62e70536faf0defde0e4fe6d4fbce084b8467d812743ec666fe5ec506958c9",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_full_model_seed42.pt",
+      "bytes": 22097865,
+      "sha256": "09abd40753171126e4791c89474b7db882c08f15c1aa0f7ad958db4ce8648dd8",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_full_model_seed456.pt",
+      "bytes": 22097876,
+      "sha256": "d11671d2cbaf44f4a2d1f2f69f2008daa354a6f884ffc3bc0b24a65a928ab5a7",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_full_model_seed789.pt",
+      "bytes": 22097876,
+      "sha256": "790961a50674b5dd42fee3577fd529de974302679fc89efa61fee95b4b3ed120",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_moment_D_stat_seed123.pt",
+      "bytes": 22097909,
+      "sha256": "877f23d0cc18e358eeb5ac365ee6828c5f57294fb1db7e979f909352aecce60a",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_moment_D_stat_seed2024.pt",
+      "bytes": 22098048,
+      "sha256": "1a790f650f07b0eea8aa198fb6972f21bb0262a8fb847f7c2114a4f7f49f18d0",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_moment_D_stat_seed42.pt",
+      "bytes": 22097898,
+      "sha256": "d029bd4db60dcea9c296e25c00b9680d85ef0fc5c58b93c5fd1963fa2eaf8c1a",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_moment_D_stat_seed456.pt",
+      "bytes": 22097909,
+      "sha256": "405d5067003b3ed58d17ab3b39c29d87b6a1778473eda50899c9333ab91e0702",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_moment_D_stat_seed789.pt",
+      "bytes": 22097909,
+      "sha256": "88a352584ea29ca6c98ab8632c8d4129da52179ca49070fd686775b5f4e8adc2",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_sorted_seed123.pt",
+      "bytes": 22097887,
+      "sha256": "481f99c272d5580692d0b9cde0c886abaaeb419f9dac2478cbf5c612b8eec0b3",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_sorted_seed2024.pt",
+      "bytes": 22097898,
+      "sha256": "4cc4146132bf045974b7237af2f3aad8200ed10bfe588dd4e8e1a508c4301c32",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_sorted_seed42.pt",
+      "bytes": 22097876,
+      "sha256": "3395d1c6be14acf1789cf049b232df15610a3ab4d24e18f7264f86afb051b2d8",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_sorted_seed456.pt",
+      "bytes": 22097887,
+      "sha256": "63789c6e6f4d88d3bc3944a486deca13ed4080426ee91cec9f71854dd0a43033",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_sorted_seed789.pt",
+      "bytes": 22097887,
+      "sha256": "3c527070bfc712c4343a0383b246943572d4f3335b8ad986911985b29ac8d1cb",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_stat_seed123.pt",
+      "bytes": 22097865,
+      "sha256": "7c5a6203e2c88ee0fba9cc574c0f656b78f6ce8c4e7ab5f42593b1deb5940c3a",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_stat_seed2024.pt",
+      "bytes": 22097876,
+      "sha256": "9b09a2854f1dc84399e11592395dd817a267d8316dce99905836a8dda565ca80",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_stat_seed42.pt",
+      "bytes": 22097854,
+      "sha256": "c9e65bae6644eee69ac3b0af5c8ba8b246fc13435da7f275ed21b59a7b050a14",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_stat_seed456.pt",
+      "bytes": 22097865,
+      "sha256": "e3f2ef1ddb92c5d02bef181129d52fe88b8d1de152fc7c25335ee72ba9e9433f",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_stat_seed789.pt",
+      "bytes": 22097865,
+      "sha256": "1dec1de0044c72acad1d79cc5317e4619928627dbc885d92f7f96cd52c161f87",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_temporal_seed123.pt",
+      "bytes": 22097909,
+      "sha256": "7d889f0cd5db54174cc3567b72790c55ef6e5f55a23202a3c25244dc3cc8c46d",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_temporal_seed2024.pt",
+      "bytes": 22098048,
+      "sha256": "fb3818c2310f6a8ffaf66d96f51aed1b13c24918f58001b12d69983d00ad807f",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_temporal_seed42.pt",
+      "bytes": 22097898,
+      "sha256": "ee526b82d5b4d6a197b5a713ad0277b9d5b58af6bf6a10ad5a00cce66d615045",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_temporal_seed456.pt",
+      "bytes": 22097909,
+      "sha256": "bc79de025a0db42452fcdb1faad173a81914b13a23a6098350959c110f1a3c17",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_D_temporal_seed789.pt",
+      "bytes": 22097909,
+      "sha256": "5a3d59a292ac2a43f7d8dcc418a0593729c291825371cb5c4fb05b02ff4ec81d",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_aux_losses_seed123.pt",
+      "bytes": 22097909,
+      "sha256": "c1cd772787e2182a517b54f77fb8a2f6fe4027dfed5f0720f0ec4253cfbc6d4c",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_aux_losses_seed2024.pt",
+      "bytes": 22098048,
+      "sha256": "dc0a0cfd4d9c23cc31458da47fb07b6ded64cc5547003434d0bfb1848dd99b4f",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_aux_losses_seed42.pt",
+      "bytes": 22097898,
+      "sha256": "293003c41307d1f5c92ef76ee8f5259e579639e0a7436d762398e1e519e2a574",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_aux_losses_seed456.pt",
+      "bytes": 22097909,
+      "sha256": "c9b0c31ef2adf5929c18f3a152faae43827ad49cb3b4a938e2f29c53c4519bdc",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_aux_losses_seed789.pt",
+      "bytes": 22097909,
+      "sha256": "40ce9174d27ba2247142311fd908e3ec4935dea179e3f01fc12cac134feae923",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_calibration_seed123.pt",
+      "bytes": 22098048,
+      "sha256": "2e175ca0ab091c96da0c56754f5d1458b2a1611fa9ec3f91d4975b3323e4d730",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_calibration_seed2024.pt",
+      "bytes": 22098059,
+      "sha256": "7169698e8e1b49f412592d0e4da073f9218cdc55cdf333008e2869b604f1dc2b",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_calibration_seed42.pt",
+      "bytes": 22097909,
+      "sha256": "719a9f67d3099479dc55c64ef4c4ba0e0fdd8be7c7f5150823b483d8952c1a71",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_calibration_seed456.pt",
+      "bytes": 22098048,
+      "sha256": "31f31c19b1e35660d13feb54c51d8441c938a7311876efa8a60fcf6bb9223ebe",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_no_calibration_seed789.pt",
+      "bytes": 22098048,
+      "sha256": "a98f44aae4c8a88c72c69a7f31e95240d2a0d3dd4c9d009534f1db33d2c91bd7",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_rank_D_sort_seed123.pt",
+      "bytes": 22097887,
+      "sha256": "49377b632402eeb5da9fbdad900412728317821a260cd00c00830b132ed3b053",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_rank_D_sort_seed2024.pt",
+      "bytes": 22097898,
+      "sha256": "ba4db23b586cee0ecaca4fd56734c799785897affee80ba50cf74622987cfd93",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_rank_D_sort_seed42.pt",
+      "bytes": 22097876,
+      "sha256": "af787f499df3e6ffe9fa09337cd25e648ed24e1355285b95a3dbf44bdff0406c",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_rank_D_sort_seed456.pt",
+      "bytes": 22097887,
+      "sha256": "6f4fde521bfc66d5c6752a4d21c9807eaf40d4b76cdfcec1397ebcf286f247eb",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_rank_D_sort_seed789.pt",
+      "bytes": 22097887,
+      "sha256": "f1fb16724e3689cdbfc5ba21e57e669ff53bdf9dfc9468dde43657ed132a8119",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_rcgan_seed123.pt",
+      "bytes": 868749,
+      "sha256": "247b6c3c37647634571d489a8d980e0fee63eee002367e3b9f0c464f79f7a451",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_rcgan_seed2024.pt",
+      "bytes": 868758,
+      "sha256": "ab30bec1fdc807a848e7ecdcda947c09ca92b75dda902078d8a3612fe8d7ad09",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_rcgan_seed42.pt",
+      "bytes": 868740,
+      "sha256": "418c951a3f79c2118d2c5908fcae5010b0206069d39240a14a5f7fb44325297f",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_rcgan_seed456.pt",
+      "bytes": 868749,
+      "sha256": "72b11121b3e1a449e29c153cf37c54a7a592af31eda6fead7a6941cd96c62e5d",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_rcgan_seed789.pt",
+      "bytes": 868749,
+      "sha256": "55988b4159b407cc6cdfb3262c4d09a60d212b42978f875a2651ab77591f0dcb",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_timegan_seed123.pt",
+      "bytes": 1396508,
+      "sha256": "16debe60b777ca2fbb5c331808fd09c5e56367b083bf958c2de346fe5b107e34",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_timegan_seed2024.pt",
+      "bytes": 1396593,
+      "sha256": "0f6002e784dc113fb27cc2a48c61d62d84958bab3455803dc2c6f60f01a252eb",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_timegan_seed42.pt",
+      "bytes": 1396487,
+      "sha256": "de26a137905aa17721c6719d5323943a1fa6ccc7fd068da6b44f7f14d23a6850",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_timegan_seed456.pt",
+      "bytes": 1396508,
+      "sha256": "5d3062303e2597edaf5ab69747a26ed04a48f8ff1d66be440ec6f737f9ee46cd",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/dubai/dubai_timegan_seed789.pt",
+      "bytes": 1396508,
+      "sha256": "1997bdedb4b8d3bde60e724965cef9e0a997f859686658cd4ef93c6153f2180c",
+      "archive": "weights_dubai.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_fixed_lambda_seed123.pt",
+      "bytes": 22097898,
+      "sha256": "e07d6c9ea21ccac66e3063767cca932ed1c153151eb85490f516754337b8118d",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_fixed_lambda_seed2024.pt",
+      "bytes": 22097909,
+      "sha256": "8e2c73ae7379ed27944095b6bf9f81ab41a24161cd4287d06e9514ec42b3d1b6",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_fixed_lambda_seed42.pt",
+      "bytes": 22097887,
+      "sha256": "cb292d2cf59531871c255b0171b39ffbd6a22110ea4482816bcaecc0fd0e010d",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_fixed_lambda_seed456.pt",
+      "bytes": 22097898,
+      "sha256": "a5b184c8fd25e32d1dfc618219d928dea6928125b9bd60458a00f8995af3dd33",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_fixed_lambda_seed789.pt",
+      "bytes": 22097898,
+      "sha256": "14ec2644778a0b903dcdfb81ca8392a9461fb8374cd1f34572d210cf73374ade",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_full_model_seed123.pt",
+      "bytes": 22097876,
+      "sha256": "0459924df890ea6b1bbbd49fae6d4eacca5f63029e3d4b1601b87f214e8e11af",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_full_model_seed2024.pt",
+      "bytes": 22097887,
+      "sha256": "2bdf97639f5c5e2ec50a9f36e0d282006a6e3e572221fc8a8ff9279232479757",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_full_model_seed42.pt",
+      "bytes": 22097865,
+      "sha256": "27ab5a222b9d03fc6db17bff464847b330829cb70f700978f2a17e764f4aece1",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_full_model_seed456.pt",
+      "bytes": 22097876,
+      "sha256": "c3d87440ad325c54cd000e31b0d5e0ad38249c2efe4273e5bb868189dc9a8be1",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_full_model_seed789.pt",
+      "bytes": 22097876,
+      "sha256": "6e3c6ff82d72e04ee2b5d3a04b25a997d42f3e0b3cf01c32290c3a4aa19f9e3d",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_moment_D_stat_seed123.pt",
+      "bytes": 22097909,
+      "sha256": "355f8d0963e9dea75bc63aa3cdda4c2b0a1726b11e21a8be0ef8a135692d17d8",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_moment_D_stat_seed2024.pt",
+      "bytes": 22098048,
+      "sha256": "c32b969f7e28de6aa0a9b0f1fd54b6fe185dba5cb8ea3952ae98289bafbc39db",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_moment_D_stat_seed42.pt",
+      "bytes": 22097898,
+      "sha256": "d6dc7fff155289d74dd2a9ea99bc0d2ec1ea03daa67da9f666299fa9dcfbafaf",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_moment_D_stat_seed456.pt",
+      "bytes": 22097909,
+      "sha256": "edf21517fc58e9232b316e44b90e5fef64966ee109c860edc6fe9c24a0900cf5",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_moment_D_stat_seed789.pt",
+      "bytes": 22097909,
+      "sha256": "a966c204c242def9a4ee4b73139135421d531829174323467373d881ec58babb",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_sorted_seed123.pt",
+      "bytes": 22097887,
+      "sha256": "0d0fb198d7edaef6a760d44dafe8e32271adfc19bde99685064ea0643b06c048",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_sorted_seed2024.pt",
+      "bytes": 22097898,
+      "sha256": "076704936f186047fb18ebfc2f7eb4d09e731c395bce8905e2de42286035540c",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_sorted_seed42.pt",
+      "bytes": 22097876,
+      "sha256": "40966086df76b2d0c1f97cf1ee508ec53c1dc5810f17afcc262bce49a551221b",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_sorted_seed456.pt",
+      "bytes": 22097887,
+      "sha256": "27e54b0fb39d4d09203822c505a689738e07d14c03496a9a7c95cf13bc95dacd",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_sorted_seed789.pt",
+      "bytes": 22097887,
+      "sha256": "ee5247408abb5a16002da9ad3be40afd270e6b61142938035f60c2b8eafe6159",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_stat_seed123.pt",
+      "bytes": 22097865,
+      "sha256": "fc2ee3f2b4c6e439e396e0fffe1d7bf4da510a6cc17e1b17a0cc487996eb5890",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_stat_seed2024.pt",
+      "bytes": 22097876,
+      "sha256": "31d356ae039822d8dfac6061bfeed259fec842dff1ba6b9181caf19c4d0a8187",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_stat_seed42.pt",
+      "bytes": 22097854,
+      "sha256": "4bea829fd173732575e7e18d8c152078177aa688781f179ef93614770a3f531e",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_stat_seed456.pt",
+      "bytes": 22097865,
+      "sha256": "2ac8fa07711fa11b6c860b9320301e17a39b635ad67c543fd82454cc29ac7f86",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_stat_seed789.pt",
+      "bytes": 22097865,
+      "sha256": "4413fad95923f796e5ef041b036c00a6addc268a63be0903d2eac9d1213fc431",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_temporal_seed123.pt",
+      "bytes": 22097909,
+      "sha256": "3c89bcc2570ce6097145fa4dabcce3bf3c31b5f560088673356c35fdc1617f9a",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_temporal_seed2024.pt",
+      "bytes": 22098048,
+      "sha256": "9a39971e54d498fb3b6c0195f005ac8d452a9f0e411249e8c73041a9226273b4",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_temporal_seed42.pt",
+      "bytes": 22097898,
+      "sha256": "28477992a40e710b358361d31a0d326435802f55a9d33b0189fccf7b723a2285",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_temporal_seed456.pt",
+      "bytes": 22097909,
+      "sha256": "cb4eed35f8168df7123a8b82164fde961014854bae7528a40a9a15c9c8269e51",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_D_temporal_seed789.pt",
+      "bytes": 22097909,
+      "sha256": "e2081b19b6ba29c4eaa3751feb099a81169d012e8d9c377b9c59125490c75a77",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_aux_losses_seed123.pt",
+      "bytes": 22097909,
+      "sha256": "af8ede15c73eea359ee1f79426f6b5ed99e75173166fffb936ee860f824d0ae8",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_aux_losses_seed2024.pt",
+      "bytes": 22098048,
+      "sha256": "4db6c20bdf01f3d344bb35b156c764a64b7062fab871951ccf55f1afc8dde65b",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_aux_losses_seed42.pt",
+      "bytes": 22097898,
+      "sha256": "ea8cd3abc95bb4ee7a044fd3ea7dba8ff70347977244032e4370d222736bdbd9",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_aux_losses_seed456.pt",
+      "bytes": 22097909,
+      "sha256": "cbc08e494fe66af1f6935c6614d8284a853c352dbc4ab3ad6e9bcf28e1ea647d",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_aux_losses_seed789.pt",
+      "bytes": 22097909,
+      "sha256": "eac913544a4324f0fd0759a8bebb8659995c6033d1ac1aa9c06bbfaa2266d079",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_calibration_seed123.pt",
+      "bytes": 22098048,
+      "sha256": "dc98a2db7c59591c332f4528cef297f8577f81483ffd2d20aaac4cfefca93a57",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_calibration_seed2024.pt",
+      "bytes": 22098059,
+      "sha256": "26048189185bc071ddd9edb69199ffd7dbecb33427b94de8b9217fac9089e9d3",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_calibration_seed42.pt",
+      "bytes": 22097909,
+      "sha256": "e2fcaeed95b64a2a99fee0c833e11cea73366a39ebec37114d893ef7a727014e",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_calibration_seed456.pt",
+      "bytes": 22098048,
+      "sha256": "9b6125b4336c5cbdb69f562309117928199583f47c94edfbb23f984059494261",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_no_calibration_seed789.pt",
+      "bytes": 22098048,
+      "sha256": "f63ba5469e7ba1b5d6742a92e282e24de6ce5b40584c06a00ba84e431bd083bc",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_rank_D_sort_seed123.pt",
+      "bytes": 22097887,
+      "sha256": "2a23839128f096f2d68adb8ba27a37e813af61f57a2524ddc8c7119dce33ba34",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_rank_D_sort_seed2024.pt",
+      "bytes": 22097898,
+      "sha256": "7bb29b1ce0c6a86a367a16d1443af9cc94f83b47eafc5c00fd298d5607c25718",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_rank_D_sort_seed42.pt",
+      "bytes": 22097876,
+      "sha256": "e1e77e82f9e29f5dfaba63402af1d3fe63dbe24aeeb8558a3be7c6ad7ab4e894",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_rank_D_sort_seed456.pt",
+      "bytes": 22097887,
+      "sha256": "8ec22c64f48f8229b5c9f0c25c2ecd8ac711d5a59dbf594060b1bc5623ec63cb",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_rank_D_sort_seed789.pt",
+      "bytes": 22097887,
+      "sha256": "420180c9bcf565affd2fbbc435cf726e29f3ab2f349479e06f2195d2c75c70ed",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_rcgan_seed123.pt",
+      "bytes": 868749,
+      "sha256": "de639614dd32e13492b87f1d2eda776ed486f05286c044a293df5502dcaf1050",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_rcgan_seed2024.pt",
+      "bytes": 868758,
+      "sha256": "20f4044cc5d2dc02a040abee86264f366fe5a4cde5dbc8b1820174cc029fd4bd",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_rcgan_seed42.pt",
+      "bytes": 868740,
+      "sha256": "6a15a29a43cae4da32cc177bdef22682cb029b9b3df9c57c43522005bffaafa5",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_rcgan_seed456.pt",
+      "bytes": 868749,
+      "sha256": "2c0622eab1cb24a3f33b75612fc5068a9fdf1be9627fecba6753f8ab9911815f",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_rcgan_seed789.pt",
+      "bytes": 868749,
+      "sha256": "866f6192fa8dfff124c931a9d624f43265842d12608d16ed9ae1eeea01d9384a",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_timegan_seed123.pt",
+      "bytes": 1396508,
+      "sha256": "2ba1fdaccf3b58661d4e9a2e5ee66600465a41be6fe841126fba750b956a9119",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_timegan_seed2024.pt",
+      "bytes": 1396593,
+      "sha256": "23101fb87ebefe3e5bc0af8215cb0f932f64c0cfa86aea279fcfab02294addfc",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_timegan_seed42.pt",
+      "bytes": 1396487,
+      "sha256": "778da33432683edde1be929b43d1982bf55d2357cb4ce4f0bd87bcf274f70ed7",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_timegan_seed456.pt",
+      "bytes": 1396508,
+      "sha256": "d11cb2df92c8b92f7fcc34c745ce62b0e4223b99cfedbcfeda77841bac4a8814",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/lhasa/lhasa_timegan_seed789.pt",
+      "bytes": 1396508,
+      "sha256": "cb98c07403a02487c1784e2526f3e647038d011a5b4f9d432c6f56ae0d04a674",
+      "archive": "weights_lhasa.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_fixed_lambda_seed123.pt",
+      "bytes": 22098048,
+      "sha256": "4f3a099f75d74d3648a4a43e541419ee06c21c43ecca149ef9405ad318a324c9",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_fixed_lambda_seed2024.pt",
+      "bytes": 22098059,
+      "sha256": "25091db7f65e98b33c4cf3f42d103fe5dc9db50ee78bbf60d0597ad33df0aeaa",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_fixed_lambda_seed42.pt",
+      "bytes": 22097909,
+      "sha256": "c01526b56c29ae6c5c72f8feb3754188476c6fd8847195fb4fd75f5edfeda8b9",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_fixed_lambda_seed456.pt",
+      "bytes": 22098048,
+      "sha256": "0f4a14781804139659867e4213bfefb9c784c8306aa6cb0cbb985fd4945fec1c",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_fixed_lambda_seed789.pt",
+      "bytes": 22098048,
+      "sha256": "ef13b27527968ec86c0e36b9bfad0ced4ae7423cb6edb8b102f0ede9a51506a5",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_full_model_seed123.pt",
+      "bytes": 22097898,
+      "sha256": "e1202be3463698c494144d6de1070cdb7c6ec0c113ae3d7f6cdee399c2914fe5",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_full_model_seed2024.pt",
+      "bytes": 22097909,
+      "sha256": "0205b6fd13b4f78cd0873b58ebd540f0003e43bf5e9b712cc07fe058c6ae1664",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_full_model_seed42.pt",
+      "bytes": 22097887,
+      "sha256": "3f31d073313ce45a00312f18d965d036ee891ad613219661b126f15fed9c7b45",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_full_model_seed456.pt",
+      "bytes": 22097898,
+      "sha256": "a1761208109a4443d27202bdf09b6c6e29c0ee3c97c35d42c1ac7fb192f59cf0",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_full_model_seed789.pt",
+      "bytes": 22097898,
+      "sha256": "9d0ec62f6a9902d35eddc49ddb836d59f115c751367404801ec8deac315af0b1",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_moment_D_stat_seed123.pt",
+      "bytes": 22098059,
+      "sha256": "fd0fb02a8cbed40fb3d9b63e19810efe45b34f68d75a428d13cd8c9048ee49da",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_moment_D_stat_seed2024.pt",
+      "bytes": 22098070,
+      "sha256": "aef0f5fd4c8a03d1c7a7794e040f01c10567df218e3cdc6faf8287b277e154c8",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_moment_D_stat_seed42.pt",
+      "bytes": 22098048,
+      "sha256": "df38e0355ef0ffd6a26bbff2374d76fae807fe5fdfa4b54624c8d620c05e4956",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_moment_D_stat_seed456.pt",
+      "bytes": 22098059,
+      "sha256": "979e0ae160bf3b3e61d87f881ae825d153c9658e2f597973a71b95f862d2a8e8",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_moment_D_stat_seed789.pt",
+      "bytes": 22098059,
+      "sha256": "cc85a1a370c666b4ab61fa43c111699f694d594a9ff0036b310f02f29293f26b",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_sorted_seed123.pt",
+      "bytes": 22097909,
+      "sha256": "449f733649b966b7729d3fea52e8bed8b8c5fb47492ebddc22ae9b3be756da25",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_sorted_seed2024.pt",
+      "bytes": 22098048,
+      "sha256": "f955a23221dd14e8c0514755f10ecc915d76b41d81906b870da6d0a7b08578c3",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_sorted_seed42.pt",
+      "bytes": 22097898,
+      "sha256": "6289195f38300f1f526cd4940edc061978adcdb660d96dc1e9c9161930ea7714",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_sorted_seed456.pt",
+      "bytes": 22097909,
+      "sha256": "45dc55d66208dced65bbd98de1cb2e2b96d269e0ec7604f442b80bb447fd52d7",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_sorted_seed789.pt",
+      "bytes": 22097909,
+      "sha256": "fcabed42dde92b74a737d0d81196fe3cb53d2eb816980cb3d9dee63b669c6c31",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_stat_seed123.pt",
+      "bytes": 22097887,
+      "sha256": "5b715218212dfb7a5de8d9831208a6074d42a62de8c18d3b058ccb629b7138d4",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_stat_seed2024.pt",
+      "bytes": 22097898,
+      "sha256": "49b7780ab14dfae1139b35bce42ac0c48d34faf4c3ba13834c753ef4afa49c09",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_stat_seed42.pt",
+      "bytes": 22097876,
+      "sha256": "d40c8420f0925559c56650509b0099ed545a146e67e7a3c644db6c04bb464084",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_stat_seed456.pt",
+      "bytes": 22097887,
+      "sha256": "316dc8cf24306841122fbc20b99310bef392c65b5f2cc5cb360aad51a8cdebc6",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_stat_seed789.pt",
+      "bytes": 22097887,
+      "sha256": "1e5e353152c461f3fe580f1338161db795757bd197736fdc8acacdf803514e2d",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_temporal_seed123.pt",
+      "bytes": 22098059,
+      "sha256": "f2b27ca618412b4832be23410a2e122b51a8e3a651c6c2eff1613f2f387fb0b4",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_temporal_seed2024.pt",
+      "bytes": 22098070,
+      "sha256": "dcedc8591397cb5783b4d12b46edd673d0e5c7af8cb624f60d51cc795f7783ad",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_temporal_seed42.pt",
+      "bytes": 22098048,
+      "sha256": "1a4a955ad1e9102df74775b1ca8abd18862de3aafa511ad0ec4071db3919d431",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_temporal_seed456.pt",
+      "bytes": 22098059,
+      "sha256": "27dfbc0a72c594b57502f4318b7c6bf9bdf35dcf3c56c57d07677cb84eb181fb",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_D_temporal_seed789.pt",
+      "bytes": 22098059,
+      "sha256": "cf06935fa324187b07f83045164b1cd3b6b03d84b936a31e4e5a24b33cc839ad",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_aux_losses_seed123.pt",
+      "bytes": 22098059,
+      "sha256": "9a6ed5e4d336cd22005722467c7ffa02a2dfe740d7d3f0b0924e0ff299dd93a7",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_aux_losses_seed2024.pt",
+      "bytes": 22098070,
+      "sha256": "0a4142cb5d83f12bfc29c2abf0dd5a811a865bbabbf79d49a8ee249bd476bcce",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_aux_losses_seed42.pt",
+      "bytes": 22098048,
+      "sha256": "cdc83956138ecc26241722f32c89f9d03992afb1f34f95043d2e6ff3d38bbaec",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_aux_losses_seed456.pt",
+      "bytes": 22098059,
+      "sha256": "4ce1c8d47a371f0dd1d3dbee5d35d4906bcd5ba874693b156ccebf2a34b2ffce",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_aux_losses_seed789.pt",
+      "bytes": 22098059,
+      "sha256": "452fb24b4c5e62d26ca949af7a8df236c9470d5708676c73d0bb314c634f0998",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_calibration_seed123.pt",
+      "bytes": 22098070,
+      "sha256": "a4314b2beb94d5bae18bc55e891ab12186d18de0d021961db0f7b606c3d14992",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_calibration_seed2024.pt",
+      "bytes": 22098081,
+      "sha256": "fad5b09408186a6a52283b1b545655799720b1fa3522a23f490316a0afb673cb",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_calibration_seed42.pt",
+      "bytes": 22098059,
+      "sha256": "05c916c6322bf780146b9c55a06cc8547cef8ccec5abb8f291e92804d1221bb5",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_calibration_seed456.pt",
+      "bytes": 22098070,
+      "sha256": "cd5ee677ecab83c05353af94339b677b6bd713965830b184a930d08f396d01fa",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_no_calibration_seed789.pt",
+      "bytes": 22098070,
+      "sha256": "ed6608e9859f172a576e1da5d184d109f729cc3ad42ba67be6b8438834cb2413",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_rank_D_sort_seed123.pt",
+      "bytes": 22097909,
+      "sha256": "361e8e5547388ea959adef56a3539610c820a3df11a5c9092ff71e5edefbdfd9",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_rank_D_sort_seed2024.pt",
+      "bytes": 22098048,
+      "sha256": "6a1fce852fca4e162c88723c657ec0e60be6aa1caf154822b8fe69b38f16aa59",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_rank_D_sort_seed42.pt",
+      "bytes": 22097898,
+      "sha256": "5222cdf030c661886492ebb9392345eca4e9222060a2367d1ac7a16a4d9c542f",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_rank_D_sort_seed456.pt",
+      "bytes": 22097909,
+      "sha256": "3ee64219ee87bd93fc89812f56d26c8c89c36e2c93ce3c7aefba92fe17d5a145",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_rank_D_sort_seed789.pt",
+      "bytes": 22097909,
+      "sha256": "b43bdbdb59d6b6043db5409c2a06405c924e2e04aa774ccb9da73223ac0b4191",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_rcgan_seed123.pt",
+      "bytes": 868767,
+      "sha256": "f7538c4efed684b50a27858fd4936dcf15be6695996a6bed8f811cabaafc7bb7",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_rcgan_seed2024.pt",
+      "bytes": 868840,
+      "sha256": "64f55a86176cf43d53cb9eba67176a9c85fe340cd2f99ab9cfb1ca7e3811baa1",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_rcgan_seed42.pt",
+      "bytes": 868758,
+      "sha256": "9b64193d1c8a2267cae58455a03e94cb8e5530441c5da30046abf3f6f1c136fb",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_rcgan_seed456.pt",
+      "bytes": 868767,
+      "sha256": "dd0b7492ed3b40117766d01a106b6012aff7b29ded9483f35a5c00694cdfa045",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_rcgan_seed789.pt",
+      "bytes": 868767,
+      "sha256": "73dee856db9d7ac90ca4ed9dadd2fa771fab069d38733fefa99264609c77d4bd",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_timegan_seed123.pt",
+      "bytes": 1396614,
+      "sha256": "2a5c60ddb4ce97b1cb1d65cdd55f1a3f2723925e9b542caa519b34ec063e09a4",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_timegan_seed2024.pt",
+      "bytes": 1396635,
+      "sha256": "f3daaf8cb85663d8f65a42b7247e6ba0e41112f32d218693ddbeb269de97e893",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_timegan_seed42.pt",
+      "bytes": 1396593,
+      "sha256": "b3db87057074ebda093e134edac565fb61138619a67dbcd4cadadbfc9c3e34a3",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_timegan_seed456.pt",
+      "bytes": 1396614,
+      "sha256": "b3492d02066b1a1526a04af52bcdbd30d591f8c8c6237538fc1eddfd4b77211d",
+      "archive": "weights_yakutsk.tar"
+    },
+    {
+      "path": "runs/yakutsk/yakutsk_timegan_seed789.pt",
+      "bytes": 1396614,
+      "sha256": "f1c864f4476e00181c158dc5b53949f7b3241a288c15a671e1073a6f18e6b4e1",
+      "archive": "weights_yakutsk.tar"
+    }
+  ],
+  "total_bytes": 5028671257
 }

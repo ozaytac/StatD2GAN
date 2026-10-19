@@ -105,8 +105,9 @@ code licence.
 
 `weights_manifest.json` lists the 275 `.pt` files (generator `state_dict`, fp32; 5,028,671,257 bytes)
 with size and sha256 (identical to MANIFEST.json) and the five per-location archives
-`weights_<loc>.tar` stored in the same Zenodo record (Zenodo allows 100 files per record). They are
-not in git.
+`weights_<loc>.tar` stored in the companion Zenodo record
+[10.5281/zenodo.23480462](https://doi.org/10.5281/zenodo.23480462) (Zenodo allows 100 files per record;
+`make fetch-weights` downloads and verifies them). They are not in git and not in the code archive.
 
 ## Citation and licence
 

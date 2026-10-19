@@ -21,7 +21,7 @@
     "figures/fig4_variance_decomposition_pf.pdf": "cd3e38ff5cc99962e7feef98ebe6fceb5b96159d0979d7236a5425a69371ef9f",
     "figures/fig4_variance_decomposition_pf.png": "041c278b4f8b1227718d5b1463ee61135ca92485ce30216099ebaa0cc58cb2ec",
     "figures/figs_extra_record.json": "ab57f46a9eee4b0c0f08f5fd02507e856107e32f43494fdfa417411fb95653e8",
-    "paper/main.tex": "b4313a7f528210bbcdd9d3109c7c88596c8d10cfcfbfe390e17b5ef1512847d0",
+    "paper/main.tex": "5c80ea33a6e4604c40cfc05b21609320e2752ad9f2a678123fe5db8e6175cbf9",
     "requirements-frozen-env.txt": "cc94ba58994087cb99e464d1c00902149aed66c4df74bd6aa41534d7ea0a6b70",
     "requirements-postfreeze.txt": "8b0e6ace1299a605d77ff1208c1d8c7351cbef7dbc61f6f7bbf175f06a69e1b7",
     "scripts/figs_extra.py": "08667f1f18d5639c99383ec3a273257e3d88493a243e14839b2716bd4ce4ac32",
@@ -38,23 +38,23 @@
     "tools/smoke.py": "f52284cbbcaa4112b6a5d330707c4c15e3cf47f36b858a9e75267963cde7d77c",
     "tools/train.py": "8d126cc9e81bfeee8ef1ae941bc03668a89e8001d8b16f06af851c885f6cc3bb",
     "tools/verify.py": "7ed3be3b4407e8c59115ccae51143c6b7f98a5ac08ba7d107423fbf460668a6b",
-    "weights_manifest.json": "62186a2316a67b1e18a4f7e130ff5d68f582cf3d13e61daa73c1d8aeb51625d8",
-    ".zenodo.json": "8d77253b869a8e3cccfc3abb2a5b0f857d6af6769474f6c672f69514d67852c4",
+    "weights_manifest.json": "117915603852cddeca2fadd1b1320ddd75027c76f2ade2516d4cc2c2c37882a4",
+    ".zenodo.json": "19a26f1506df35b1e743a4c4178637a6d24f48e5cf75288e83780632c8bd5ae6",
     "CITATION.cff": "9f2cc9fe5bf0772ace449501f1713bea9d371a469a206e98bec7717be7faa5a0",
-    "README.md": "b248415702a9d13cccf853518e0403b13f70defc5c17059d0119420cb5e3cc2b",
+    "README.md": "3c2277b9e01cac5502a9b9a2f52b84d9ac770e3e0b4930cec468f418e43d5cce",
     "frozen_meta/.zenodo.json": "f4e567305d787316c9a25a0da58c46ab37653e0476fc1b7d59cf7b22a8f079e0",
     "frozen_meta/CITATION.cff": "4f13162236df6a3a79587ffcb0da47187d25069f155eb36c03ba3c077c5e8838",
     "frozen_meta/README.md": "21842edf263766ba73d278410b138cc5a59b369330083ca880f7c3d83a1aff91",
     "scripts/table_pilot_extra.py": "2e9a4ad0d278af63d458cb68577537bfdd8c35a062091af026d84a954f10cb89"
   },
   "frozen_manifest_sha256": "2c60b9e0befe70b87736d5e41f2294767da93cc14158a00e15f8da7ad88fe0d0",
-  "updated_utc": "2026-10-19T16:56:41+00:00",
+  "updated_utc": "2026-10-19T18:03:12+00:00",
   "scope_note_distance_extra": "scripts/distance_extra.py is the one post-freeze step that re-runs inference: it reloads the frozen generator weights (runs/*/*.pt), redraws with the frozen seeds and refits calibration through unchanged frozen src/ code, then gates every run against the frozen run JSON (|KS - JSON| <= 1e-4). No training. Its output results_extra/distance_cal_train.csv is registered only after all gates pass.",
   "superseded": {
     ".zenodo.json": {
       "frozen_sha256": "f4e567305d787316c9a25a0da58c46ab37653e0476fc1b7d59cf7b22a8f079e0",
       "kept_at": "frozen_meta/.zenodo.json",
-      "replaced_by_sha256": "8d77253b869a8e3cccfc3abb2a5b0f857d6af6769474f6c672f69514d67852c4"
+      "replaced_by_sha256": "19a26f1506df35b1e743a4c4178637a6d24f48e5cf75288e83780632c8bd5ae6"
     },
     "CITATION.cff": {
       "frozen_sha256": "4f13162236df6a3a79587ffcb0da47187d25069f155eb36c03ba3c077c5e8838",
@@ -64,7 +64,7 @@
     "README.md": {
       "frozen_sha256": "21842edf263766ba73d278410b138cc5a59b369330083ca880f7c3d83a1aff91",
       "kept_at": "frozen_meta/README.md",
-      "replaced_by_sha256": "b248415702a9d13cccf853518e0403b13f70defc5c17059d0119420cb5e3cc2b"
+      "replaced_by_sha256": "3c2277b9e01cac5502a9b9a2f52b84d9ac770e3e0b4930cec468f418e43d5cce"
     }
   },
   "superseded_note": "Repository metadata replaced at the root after the freeze (GitHub and Zenodo read it there). The frozen originals are kept byte-identical under frozen_meta/; the code, protocol and results are unaffected.",
