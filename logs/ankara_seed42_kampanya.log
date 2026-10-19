@@ -1,0 +1,99 @@
+[1/9] ankara full_model 42: skip
+[2/9] ankara no_D_sorted 42: skip
+[3/9] ankara rank_D_sort 42: skip
+ep 0 0.468s
+ep 10 0.157s
+ep 20 6.449s
+ep 30 6.446s
+ep 40 6.462s
+ep 50 6.458s
+ep 60 4.423s
+ep 70 4.424s
+ep 80 4.428s
+ep 90 4.424s
+ep 100 4.42s
+ep 110 4.426s
+ep 120 4.425s
+ep 130 4.425s
+ep 140 4.424s
+[4/9] ankara fixed_lambda 42: 630s
+ep 0 0.157s
+ep 10 0.156s
+ep 20 2.512s
+ep 30 2.507s
+ep 40 2.526s
+ep 50 2.531s
+ep 60 1.77s
+ep 70 1.776s
+ep 80 1.766s
+ep 90 1.772s
+ep 100 1.766s
+ep 110 1.76s
+ep 120 1.763s
+ep 130 1.766s
+ep 140 1.765s
+[5/9] ankara moment_D_stat 42: 254s
+ep 0 0.158s
+ep 10 0.156s
+ep 20 2.414s
+ep 30 2.414s
+ep 40 2.425s
+ep 50 2.427s
+ep 60 1.696s
+ep 70 1.691s
+ep 80 1.694s
+ep 90 1.697s
+ep 100 1.693s
+ep 110 1.693s
+ep 120 1.696s
+ep 130 1.697s
+ep 140 1.696s
+[6/9] ankara no_D_stat 42: 244s
+ep 0 0.157s
+ep 10 0.156s
+ep 20 4.556s
+ep 30 4.565s
+ep 40 4.573s
+ep 50 4.566s
+ep 60 3.15s
+ep 70 3.155s
+ep 80 3.149s
+ep 90 3.145s
+ep 100 3.151s
+ep 110 3.146s
+ep 120 3.146s
+ep 130 3.15s
+ep 140 3.148s
+[7/9] ankara no_D_temporal 42: 448s
+ep 0 6.443s
+ep 10 6.427s
+ep 20 6.434s
+ep 30 6.46s
+ep 40 6.449s
+ep 50 6.438s
+ep 60 4.409s
+ep 70 4.409s
+ep 80 4.413s
+ep 90 4.413s
+ep 100 4.404s
+ep 110 4.408s
+ep 120 4.402s
+ep 130 4.407s
+ep 140 4.408s
+[8/9] ankara no_aux_losses 42: 713s
+ep 0 0.157s
+ep 10 0.156s
+ep 20 6.433s
+ep 30 6.435s
+ep 40 6.474s
+ep 50 6.466s
+ep 60 4.437s
+ep 70 4.436s
+ep 80 4.432s
+ep 90 4.44s
+ep 100 4.437s
+ep 110 4.437s
+ep 120 4.436s
+ep 130 4.444s
+ep 140 4.431s
+[9/9] ankara no_calibration 42: 627s

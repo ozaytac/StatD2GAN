@@ -1,0 +1,142 @@
+# StatD2GAN reproducibility package: experimental protocol.
+# Written and committed BEFORE any training run. `make freeze` writes protocol.lock
+# (sha256 of this file); every script refuses to run if the file changed afterwards.
+# Nothing here may be edited after seeing a result. Corrections = new protocol version.
+status: FROZEN            # freeze.py refuses DRAFT; set to FROZEN in the freeze commit
+version: 3.0.0
+
+data:
+  locations: {ankara: [39.75, 32.75], bergen: [60.5, 5.25], dubai: [25.25, 55.25],
+              lhasa: [29.75, 91.0], yakutsk: [62.0, 129.75]}     # ERA5 0.25 deg grid point (lat, lon)
+  years: [2010, 2024]
+  era5_vars: [10m_u_component_of_wind, 10m_v_component_of_wind, 2m_dewpoint_temperature,
+              2m_temperature, mean_sea_level_pressure, surface_pressure]
+  seq_len: 168
+  step: 24
+  val_years: 2               # last 2 full calendar years
+  embargo_hours: 168         # removed from the end of train; no window straddles the boundary
+  features: [temperature, dew_point, msl, wind_speed, wind_dir_sin, wind_dir_cos,
+             humidity, hour_sin, hour_cos, vpd, pressure_tendency]
+  scalable_idx: [0, 1, 2, 3, 6, 9, 10]      # min-max to [-1, 1], fit on train only
+  raw_tolerance: 1.0e-4                      # max |re-downloaded - pinned raw| after float32 cast
+
+physics:                     # single source for training loss AND evaluation
+  dew_tol: 0.1
+  pres_lo: 980.0
+  pres_hi: 1045.0
+  hum_lo: 0.0
+  hum_hi: 100.0
+
+model:
+  latent_dim: 128
+  hidden_dim: 512
+  batch_size: 512
+  lr_g: 1.0e-3
+  lr_d: 1.0e-3
+  total_epochs: 150
+  warmup_epochs: 15
+  gp_freq: 5
+  gp_lambda: 10.0
+  evo: {eta: 0.03, bounds: [0.5, 6.0], max_ratio: 3.0}
+  amp: true
+
+arms:                        # 9 ablation arms; keys override ExperimentConfig defaults
+  full_model: {}
+  no_D_temporal: {use_D_temporal: false}
+  no_D_stat: {use_D_stat: false}
+  no_D_sorted: {use_D_sorted: false}
+  no_calibration: {use_calibration: false}
+  fixed_lambda: {use_evolutionary: false, fixed_lambda: [1.0, 1.0, 1.0]}
+  moment_D_stat: {stat_variant: moment}
+  rank_D_sort: {sorted_variant: rank}
+  no_aux_losses: {warmup_epochs: 0, use_aux_losses: false}
+seeds: [42, 123, 456, 789, 2024]
+
+baselines:                   # re-implemented from the original papers; same pipeline downstream
+  models: [rcgan, timegan]
+  rcgan:   {latent: 32, hidden: 128, layers: 2, epochs: 100, batch_size: 128, lr: 1.0e-3}
+  timegan: {latent: 32, hidden: 64, layers: 3, iters_ae: 2000, iters_sup: 2000, iters_joint: 2000,
+            batch_size: 128, lr: 1.0e-3, gamma: 1.0}
+
+evaluation:
+  n_eval: 5000               # synthetic sequences per run
+  eval_draw_seed: 10000      # + run seed; evaluation draw
+  calib_draw_seed: 20000     # + run seed; INDEPENDENT draw used only to fit calibration
+  calibration: isotonic quantile map, 1000 quantiles, fit on TRAIN real vs calib draw
+  projection: dew<=T+tol, humidity clip, pressure clip (after calibration)
+  metric_seed: 1907
+  tau_subsample: 50000
+  tau_pairs: [[0, 1], [0, 6], [2, 9], [6, 9], [0, 2], [1, 6]]
+  acf_nlags: 24
+  acf_features: [0, 1, 2, 3, 6]
+  acf_n_seq: 200             # fixed random subset (metric_seed), NOT the first 200 in time order
+  primary: ks_stat           # mean over scalable features of the two-sample KS sup-distance
+  floor: >-
+    KS sup-distance between real TRAIN and real HELD-OUT marginals (mean over scalable
+    features), per location. A practical reference for what a perfect marginal fit
+    scores under train/held-out sampling and drift; NOT a mathematical lower bound
+    (a generator can score below it by chance or by matching the held-out sample).
+  seq_stats: >-
+    on temperature: seq_mean_sd = SD over sequences of per-sequence means;
+    within_sd = mean over sequences of per-sequence SD; step_diff = mean |x[t+1]-x[t]|.
+
+inference:
+  unit: 25 paired (location, seed) pairs, difference = arm - full_model, same seed
+  test: wilcoxon signed-rank, two-sided, exact when possible (scipy)
+  metrics: [ks_stat, kendall_mae, acf_mae, phys_viol_rate]
+  family: 8 contrasts (all arms vs full_model) per metric
+  correction: holm step-down, monotone (running maximum), via statsmodels multipletests
+  baseline_family: 2 contrasts (rcgan, timegan vs full_model) per metric, Holm within metric
+  alpha: 0.05
+  bootstrap:
+    scheme: location-clustered; resample the 5 locations with replacement
+    statistic: mean over locations of the per-location median (of 5 paired seed differences)
+    n_boot: 20000
+    interval: percentile 2.5 / 97.5
+    seed: 20260929
+    caveat: 5 clusters give at most 126 distinct resamples (multisets); intervals are coarse.
+
+pilot:
+  locations: [ankara, dubai]
+  arms: [full_model, no_D_sorted, rank_D_sort]
+  seeds: [42, 123, 456, 789, 2024]
+  gate: >-
+    Dubai: (mean tau-MAE of no_D_sorted / mean tau-MAE of full_model - 1) >= 0.20
+    AND the paired per-seed difference (no_D_sorted - full_model) is positive in at
+    least 4 of 5 seeds.
+  gate_min_pct: 20
+  gate_min_positive_seeds: 4
+  on_pass: proceed to full campaign; pilot runs are kept and are part of the final data.
+  on_fail: campaign still runs for all arms (no arm is dropped); the D_sorted claim is
+    downgraded to null in the paper and rank_D_sort is reported as the diagnostic contrast.
+  no_reruns: pilot runs are never repeated, replaced or filtered.
+
+decision_rules:              # evaluated by src/s2g/decide.py (called from scripts/analyze.py); verdicts feed the paper
+  D1_calibration_floor: >-
+    Claim "calibration locks marginal fit to the noise floor" iff the median over the
+    25 pairs of ks_stat/floor for full_model is <= 1.05 AND the Holm-adjusted p of
+    no_calibration vs full_model on ks_stat is < alpha.
+  D2_component: >-
+    An arm is reported as an effective component iff Holm-adjusted p < alpha on
+    kendall_mae AND the median paired difference is positive in >= 4 of 5 location medians.
+  D3_null: >-
+    Otherwise: "not distinguishable from full_model at n=25". No equivalence claim is made.
+  D4_mechanism: >-
+    "D_sort acts through the quantile channel, not the copula" iff rank_D_sort has a
+    positive median kendall_mae difference with Holm-adjusted p < alpha (the rank-input
+    variant does not preserve the benefit).
+  D5_projection: >-
+    "Projection removes violations at no marginal cost" iff projected phys_viol_rate
+    equals 0 in all full_model runs AND max |ks_stat(projected) - ks_stat(calibrated)|
+    <= 0.05 * mean floor.
+  D6_variance_collapse: >-
+    A baseline is reported as collapsed on seasonal diversity iff its median seq_mean_sd
+    is < 10% of the real held-out seq_mean_sd in >= 4 of 5 locations.
+
+budget:
+  gpu_hours: 60            # MUST be set before freeze (hours of wall clock available)
+  safety_factor: 1.15
+  ladder: [no_aux_losses, fixed_lambda, moment_D_stat]   # dropped in this order, never seeds,
+                                                         # never locations, only if projection
+                                                         # exceeds gpu_hours. Decided from
+                                                         # smoke timings only, before any metric.

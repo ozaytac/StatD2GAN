@@ -1,0 +1,3 @@
+# produced by scripts/analyze.py; inputs: results/abl_perseed.csv; protocol sha256 2d9a3b9d210d
+median_pairwise_abs_dtau,mean_tau_full,band_pct
+0.036044995198571905,0.18419784548502277,19.56863018872973

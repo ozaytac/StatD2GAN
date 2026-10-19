@@ -1,0 +1,15 @@
+# Light checks only: no torch, no weights, no TeX, no training.
+name: ci
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -r requirements-postfreeze.txt
+      - run: make verify
+      - run: make tables
+      - run: python tests/test_distance_extra.py

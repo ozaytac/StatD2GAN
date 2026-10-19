@@ -1,0 +1,24 @@
+% produced by scripts/report_extra.py from results_extra/distance_cal_train.csv (post-freeze; descriptive, no tests)
+\begin{table}[!htb]
+\centering\small
+\caption{Distance of the calibrated synthetic sample to the training block (post-freeze; descriptive, no tests; $\bar d^{\,\mathrm{raw,train}}$ is not a quality ranking). Medians over runs unless marked max. Location rows pool the calibrated ablation arms; baseline rows pool locations. $\bar d^{\,\mathrm{cal,train}}$, $\bar d^{\,\mathrm{raw,train}}$: feature-mean sup-distance of the calibrated and uncalibrated sample to the training block; floor: $\mathrm{KS}^{\mathrm{floor}}$; $\Delta=\lvert\mathrm{KS}^{\mathrm{cal}}-\mathrm{KS}^{\mathrm{floor}}\rvert$.}
+\label{tab:dist}
+\begin{tabular}{lrrrrrrr}
+\toprule
+ & Runs & Floor & $\bar d^{\,\mathrm{cal,train}}$ & \multicolumn{2}{c}{$\bar d^{\,\mathrm{cal,train}}/$floor} & $\Delta/$floor & $\bar d^{\,\mathrm{raw,train}}$ \\
+\cmidrule(lr){5-6}
+ & & & & median & max & & \\
+\midrule
+Ankara & 40 & 0.0363 & 0.0056 & 0.154 & 0.422 & 0.032 & 0.200 \\
+Bergen & 40 & 0.0360 & 0.0053 & 0.147 & 0.475 & 0.025 & 0.185 \\
+Dubai & 40 & 0.0344 & 0.0067 & 0.194 & 0.512 & 0.029 & 0.131 \\
+Lhasa & 40 & 0.0846 & 0.0059 & 0.069 & 0.223 & 0.010 & 0.165 \\
+Yakutsk & 40 & 0.0488 & 0.0075 & 0.153 & 0.346 & 0.043 & 0.179 \\
+\midrule
+RCGAN & 25 & -- & 0.0023 & 0.043 & 0.428 & 0.008 & 0.437 \\
+TimeGAN & 25 & -- & 0.0064 & 0.137 & 0.699 & 0.035 & 0.079 \\
+\midrule
+All runs & 250 & -- & 0.0059 & 0.134 & 0.699 & 0.023 & 0.172 \\
+\bottomrule
+\end{tabular}
+\end{table}

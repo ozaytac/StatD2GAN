@@ -1,0 +1,26 @@
+{
+  "title": "StatD2GAN: A Protocol-Correction and Component Analysis of Multi-Discriminator GANs for Synthetic Weather Sequences",
+  "description": "A multi-discriminator GAN for synthetic multivariate weather sequences and a held-out re-evaluation that overturns most of its own architecture claims. Code, ablation results, and figures for the StatD2GAN v2 campaign (5 locations, 9 ablation arms x 5 seeds, 2 baselines x 25 runs, held-out evaluation protocol).",
+  "creators": [
+    {
+      "name": "Ozaytac, Mustafa",
+      "orcid": "0000-0002-2650-1458",
+      "affiliation": "Department of Statistics, Faculty of Science, Hacettepe University"
+    },
+    {
+      "name": "Karadag Atas, Ozge"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "GAN",
+    "generative adversarial networks",
+    "synthetic weather data",
+    "time series generation",
+    "multi-discriminator",
+    "ablation study",
+    "ERA5"
+  ]
+}

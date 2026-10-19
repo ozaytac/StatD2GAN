@@ -1,0 +1,58 @@
+{
+ "D1": {
+  "holds": true,
+  "detail": "median ks/floor=1.019, Holm p(no_calibration)=4.768e-07"
+ },
+ "D2": {
+  "fixed_lambda": {
+   "holds": false,
+   "detail": "median diff=-0.0019, Holm p=1, positive in 3/5 location medians"
+  },
+  "moment_D_stat": {
+   "holds": false,
+   "detail": "median diff=-0.0220, Holm p=0.205, positive in 1/5 location medians"
+  },
+  "no_D_sorted": {
+   "holds": true,
+   "detail": "median diff=0.1155, Holm p=0.002296, positive in 5/5 location medians"
+  },
+  "no_D_stat": {
+   "holds": false,
+   "detail": "median diff=0.0319, Holm p=1, positive in 4/5 location medians"
+  },
+  "no_D_temporal": {
+   "holds": false,
+   "detail": "median diff=-0.0072, Holm p=1, positive in 3/5 location medians"
+  },
+  "no_aux_losses": {
+   "holds": false,
+   "detail": "median diff=0.0160, Holm p=1, positive in 5/5 location medians"
+  },
+  "no_calibration": {
+   "holds": false,
+   "detail": "median diff=0.0000, Holm p=1, positive in 1/5 location medians"
+  },
+  "rank_D_sort": {
+   "holds": true,
+   "detail": "median diff=0.0943, Holm p=0.005657, positive in 4/5 location medians"
+  }
+ },
+ "D4": {
+  "holds": true,
+  "detail": "rank_D_sort median diff=0.0943, Holm p=0.005657"
+ },
+ "D5": {
+  "holds": false,
+  "detail": "all zero=True, max|dKS|=0.01101"
+ },
+ "D6": {
+  "rcgan": {
+   "holds": false,
+   "detail": "0/5 locations below 10% of real seq_mean_sd"
+  },
+  "timegan": {
+   "holds": false,
+   "detail": "0/5 locations below 10% of real seq_mean_sd"
+  }
+ }
+}

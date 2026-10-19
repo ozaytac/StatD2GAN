@@ -1,24 +1,20 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "statd2gan"
-version = "2.0.0"
-description = "Multi-discriminator GAN for synthetic multivariate weather sequences (held-out v2 protocol)"
-readme = "README.md"
-license = {file = "LICENSE"}
+name = "s2g"
+version = "3.0.0"
 requires-python = ">=3.10"
-dependencies = [
-    "torch>=2.1",
-    "numpy>=1.24",
-    "pandas>=2.0",
-    "scipy>=1.10",
-    "scikit-learn>=1.3",
-    "statsmodels>=0.14",
-    "matplotlib>=3.7",
-    "tqdm>=4.65",
-]
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "statsmodels", "matplotlib",
+                "pyyaml", "torch", "cdsapi", "xarray", "netCDF4"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: tiny GPU/CPU training run"]

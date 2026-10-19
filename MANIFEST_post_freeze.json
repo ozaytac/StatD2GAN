@@ -1,0 +1,74 @@
+{
+  "note": "Post-freeze reporting layer. Scripts and outputs added after the protocol freeze. They re-express or re-plot frozen results/*.csv, results/decisions.json, protocol.yaml and constants of the frozen src/; no training, evaluation, inference or decision rule was changed or re-run. MANIFEST.json (frozen) is not modified.",
+  "files": {
+    "scripts/report_extra.py": "4b6ee6fb5cebbc6dd2a381974c94fa7b00b2e2a7fedd82784165895a3b874688",
+    "scripts/post_freeze.py": "79fdbac16cd8a10125cc9738ee14eb7a7a113f80dac4301d0ce8729e384d91db",
+    "generated/numbers_extra.tex": "1ece111ca5963a82e27b06b536f20d6b5f62738cc05ce3b576172effd20f91d0",
+    "scripts/fig1_extra.py": "fa7b6bc0259aa6c178fbe725a67d639054d14d9ebc4dab6be3ef658deb866921",
+    "figures/fig1_location_robustness_pf.pdf": "c6825e3c7dcb9f52e55b3fed97fe067606578c72e561dab5f70a599f20f2899f",
+    "figures/fig1_location_robustness_pf.png": "2998b1fa30676815417f90fed1fa3e7c54b196fbbaf6ece7ba026e0dd658d260",
+    "scripts/table_seq_extra.py": "b6b12f970497be188bd222e089d53928cbf32afb42b99a975764a24024b3904e",
+    "generated/tables_pf.tex": "9f8c4fec8d1a8bc6857a29d164e5b491613a5a2fc11c4ecb34dbaf65cfe86ee1",
+    "scripts/distance_extra.py": "55552fc56e06907fa64fcb89f12bab3200bce0e20e5943334e750792285b7a0f",
+    "tests/test_distance_extra.py": "7d7ffbd7d558f63b9e0e258dce4908b9b257dcf5bd314b52410e9870544dc666",
+    "results_extra/distance_cal_train.csv": "c7fd336754e9045178a172820a4b536cd92eea4bf555a965f848ceabfcd329f5",
+    "generated/table_dist_pf.tex": "c15d36aad48aca1cfc9fdea00d67754fb7e308cf8c1f920793e3564d802c17df",
+    ".github/workflows/ci.yml": "88be90a29eb242101ac9463c9e9f12252bf0c4be608063c8f15005855241663a",
+    ".gitignore": "4b50b1e683afd62c8b701657349562f1169c29bcc86be5e496777f2156c91ea7",
+    "GNUmakefile": "649172381860723a40ec125787eb141f5a5f229ff27f638fc8745a987382a1b8",
+    "figures/fig2_dsort_mechanism_pf.pdf": "08c86278dc684934f9c3e8c602dd306ec76b98eff6148477bd8c6fb7a0e9f616",
+    "figures/fig2_dsort_mechanism_pf.png": "26fb5a59bc8dc3d52123f06962a2f66500f90fc82be8c4e66d1f35659d29bea1",
+    "figures/fig4_variance_decomposition_pf.pdf": "cd3e38ff5cc99962e7feef98ebe6fceb5b96159d0979d7236a5425a69371ef9f",
+    "figures/fig4_variance_decomposition_pf.png": "041c278b4f8b1227718d5b1463ee61135ca92485ce30216099ebaa0cc58cb2ec",
+    "figures/figs_extra_record.json": "ab57f46a9eee4b0c0f08f5fd02507e856107e32f43494fdfa417411fb95653e8",
+    "paper/main.tex": "b4313a7f528210bbcdd9d3109c7c88596c8d10cfcfbfe390e17b5ef1512847d0",
+    "requirements-frozen-env.txt": "cc94ba58994087cb99e464d1c00902149aed66c4df74bd6aa41534d7ea0a6b70",
+    "requirements-postfreeze.txt": "8b0e6ace1299a605d77ff1208c1d8c7351cbef7dbc61f6f7bbf175f06a69e1b7",
+    "scripts/figs_extra.py": "08667f1f18d5639c99383ec3a273257e3d88493a243e14839b2716bd4ce4ac32",
+    "tools/_common.py": "2d5191782e9261b8c6b1f29f93637a1636386ccf2ac64c8493e5c24d069878d5",
+    "tools/assemble_release.py": "8ed489e1cd2d2015153264f9a7d5d40cfaac6cd90d12b12e4b00a7b5170aae9a",
+    "tools/build_paper.py": "0c08218f5ca4affa79c7e608fc5b175d51ed65db2ab5b744318268911b412010",
+    "tools/data.py": "6db768981b7e88f616acfcf6ca16256311d02869688caed81cf0b3e5d72457f1",
+    "tools/fetch_weights.py": "d57f78d30d1a321abc0df61ea73b2ff93764bce3d34afb0db72c46cfafc63485",
+    "tools/lint_paper.py": "fc723dca12fcb0da52ada4e963e4ee88f7a9b4f61b19f0ef0af370b848e2cfd9",
+    "tools/macro_check.py": "f02814acd7f151a5ee9899d4354ef17fd9a7eb1f313b351ea718101aadedbd69",
+    "tools/register_release.py": "436b105a854a46bbe62094175dcd018a1f17d3fb5335cbaa1f5b0757573d1a17",
+    "tools/repro_distance.py": "3d0c6947b951a3fe7a0bbbe9422891000354880a616ab88eeed289f73ddae531",
+    "tools/repro_tables.py": "d491774f14a42fea14c159a9c660ac53acf5f5f863686909ad4c3c995a84be56",
+    "tools/smoke.py": "f52284cbbcaa4112b6a5d330707c4c15e3cf47f36b858a9e75267963cde7d77c",
+    "tools/train.py": "8d126cc9e81bfeee8ef1ae941bc03668a89e8001d8b16f06af851c885f6cc3bb",
+    "tools/verify.py": "7ed3be3b4407e8c59115ccae51143c6b7f98a5ac08ba7d107423fbf460668a6b",
+    "weights_manifest.json": "62186a2316a67b1e18a4f7e130ff5d68f582cf3d13e61daa73c1d8aeb51625d8",
+    ".zenodo.json": "8d77253b869a8e3cccfc3abb2a5b0f857d6af6769474f6c672f69514d67852c4",
+    "CITATION.cff": "9f2cc9fe5bf0772ace449501f1713bea9d371a469a206e98bec7717be7faa5a0",
+    "README.md": "b248415702a9d13cccf853518e0403b13f70defc5c17059d0119420cb5e3cc2b",
+    "frozen_meta/.zenodo.json": "f4e567305d787316c9a25a0da58c46ab37653e0476fc1b7d59cf7b22a8f079e0",
+    "frozen_meta/CITATION.cff": "4f13162236df6a3a79587ffcb0da47187d25069f155eb36c03ba3c077c5e8838",
+    "frozen_meta/README.md": "21842edf263766ba73d278410b138cc5a59b369330083ca880f7c3d83a1aff91",
+    "scripts/table_pilot_extra.py": "2e9a4ad0d278af63d458cb68577537bfdd8c35a062091af026d84a954f10cb89"
+  },
+  "frozen_manifest_sha256": "2c60b9e0befe70b87736d5e41f2294767da93cc14158a00e15f8da7ad88fe0d0",
+  "updated_utc": "2026-10-19T16:56:41+00:00",
+  "scope_note_distance_extra": "scripts/distance_extra.py is the one post-freeze step that re-runs inference: it reloads the frozen generator weights (runs/*/*.pt), redraws with the frozen seeds and refits calibration through unchanged frozen src/ code, then gates every run against the frozen run JSON (|KS - JSON| <= 1e-4). No training. Its output results_extra/distance_cal_train.csv is registered only after all gates pass.",
+  "superseded": {
+    ".zenodo.json": {
+      "frozen_sha256": "f4e567305d787316c9a25a0da58c46ab37653e0476fc1b7d59cf7b22a8f079e0",
+      "kept_at": "frozen_meta/.zenodo.json",
+      "replaced_by_sha256": "8d77253b869a8e3cccfc3abb2a5b0f857d6af6769474f6c672f69514d67852c4"
+    },
+    "CITATION.cff": {
+      "frozen_sha256": "4f13162236df6a3a79587ffcb0da47187d25069f155eb36c03ba3c077c5e8838",
+      "kept_at": "frozen_meta/CITATION.cff",
+      "replaced_by_sha256": "9f2cc9fe5bf0772ace449501f1713bea9d371a469a206e98bec7717be7faa5a0"
+    },
+    "README.md": {
+      "frozen_sha256": "21842edf263766ba73d278410b138cc5a59b369330083ca880f7c3d83a1aff91",
+      "kept_at": "frozen_meta/README.md",
+      "replaced_by_sha256": "b248415702a9d13cccf853518e0403b13f70defc5c17059d0119420cb5e3cc2b"
+    }
+  },
+  "superseded_note": "Repository metadata replaced at the root after the freeze (GitHub and Zenodo read it there). The frozen originals are kept byte-identical under frozen_meta/; the code, protocol and results are unaffected.",
+  "optional": {
+    ".pytest_cache/": "Frozen by accident at freeze time (pytest's own cache). pytest rewrites it and the release does not track it in git; make verify notes it when absent or different."
+  }
+}

@@ -1,0 +1,13 @@
+# Post-freeze layer (make verify / tables / paper / smoke / distance). Python 3.13.
+# Exact versions with which generated/numbers_extra.tex, tables_pf.tex, table_dist_pf.tex and the
+# *_pf figures were produced and re-checked (make tables: text byte-identical, PNG byte-identical).
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+PyYAML==6.0.3
+pytest==8.4.2
+# torch is installed separately (make env WITH_TORCH=1): torch==2.11.0. The distance recomputation
+# (results_extra/distance_cal_train.csv) ran on torch 2.11.0+cu130 (CUDA 13.0) on an NVIDIA RTX PRO 6000
+# Blackwell. CPU-only: pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cpu

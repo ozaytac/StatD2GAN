@@ -1,12 +1,6 @@
-## Data license note
+## Data licence note
 
-The raw hourly ERA5 reanalysis files in this folder (`ankara.csv`, `bergen.csv`,
-`dubai.csv`, `lhasa.csv`, `yakutsk.csv`) are **not covered by this repository's
-MIT license**. They are derived from ERA5 reanalysis data distributed by the
-[Copernicus Climate Data Store (CDS)](https://cds.climate.copernicus.eu/),
-which is released under the Copernicus License. If you reuse this data,
-cite Copernicus/ECMWF separately and follow the terms of the
-[Copernicus License](https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf).
-
-Code in this repository (everything under `src/`, `scripts/`, `notebooks/`)
-is MIT-licensed; see the root [LICENSE](../LICENSE).
+`raw/*.csv` are hourly ERA5 single-level reanalysis point series (2010-2024) at the grid points listed in
+`protocol.yaml`, extracted from the Copernicus Climate Data Store. They are **not** covered by the MIT licence of the code;
+cite Copernicus/ECMWF and follow the Copernicus Licence. Integrity: `raw.sha256`. `scripts/download_era5.py`
+re-creates them from CDS; `scripts/verify_raw.py --redownload` compares numerically.

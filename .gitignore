@@ -1,2 +1,14 @@
-.DS_Store
+__pycache__/
+*.pyc
+.venv/
+build/
+.pytest_cache/
+*.pt
+weights_zenodo/
+weights/
+data/processed/
+data/raw_redownload/
+runs/*/*.pt
+runs/_smoke/
+dist/
 .DS_Store

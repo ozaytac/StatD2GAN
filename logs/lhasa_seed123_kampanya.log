@@ -1,0 +1,9 @@
+[1/9] lhasa full_model 123: skip
+[2/9] lhasa no_D_sorted 123: skip
+[3/9] lhasa rank_D_sort 123: skip
+[4/9] lhasa fixed_lambda 123: skip
+[5/9] lhasa moment_D_stat 123: skip
+[6/9] lhasa no_D_stat 123: skip
+[7/9] lhasa no_D_temporal 123: skip
+[8/9] lhasa no_aux_losses 123: skip
+[9/9] lhasa no_calibration 123: skip

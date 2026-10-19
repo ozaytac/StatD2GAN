@@ -1,26 +1,41 @@
 {
-  "title": "StatD2GAN: A Protocol-Correction and Component Analysis of Multi-Discriminator GANs for Synthetic Weather Sequences",
-  "description": "A multi-discriminator GAN for synthetic multivariate weather sequences and a held-out re-evaluation that overturns most of its own architecture claims. Code, ablation results, and figures for the StatD2GAN v2 campaign (5 locations, 9 ablation arms x 5 seeds, 2 baselines x 25 runs, held-out evaluation protocol).",
+  "title": "Marginal Calibration Masks Generator Differences in Held-Out Evaluation of Multivariate Time Series, with an Application to ERA5 Weather Sequences",
+  "version": "2.0.0",
+  "description": "Reproducibility package for the StatD2GAN v3 study, a held-out re-evaluation of a multi-discriminator GAN for multivariate weather sequences: the final two calendar years of each ERA5 series are held out behind a 168-hour embargo, calibration is fitted on the training block only, and the decision rules were frozen before any result was seen (protocol sha256 2d9a3b9d210df5b2...). The v3 campaign comprises 275 runs: 9 ablation arms of StatD2GAN and re-implemented RCGAN and TimeGAN baselines, at 5 ERA5 locations with 5 seeds each. This release (v2.0.0; internal labels: frozen campaign v3.0.0, post-freeze layer v3.1.0) contains the frozen v3.0.0 code, run records, results and ERA5 inputs unchanged (MANIFEST.json), a post-freeze reporting layer (MANIFEST_post_freeze.json), a one-command build (make all) and the 275 generator weight files as five per-location archives (weights_manifest.json). ERA5: Copernicus Climate Change Service (C3S) Climate Data Store, DOI 10.24381/cds.adbb2d47, CC-BY; contains modified Copernicus Climate Change Service information 2026.",
   "creators": [
     {
-      "name": "Ozaytac, Mustafa",
-      "orcid": "0000-0002-2650-1458",
-      "affiliation": "Department of Statistics, Faculty of Science, Hacettepe University"
+      "name": "Özaytaç, Mustafa",
+      "orcid": "0009-0009-8486-0828",
+      "affiliation": "Department of Statistics, Graduate School of Science and Engineering, Hacettepe University"
     },
     {
-      "name": "Karadag Atas, Ozge"
+      "name": "Karadağ Ataş, Özge",
+      "orcid": "0000-0002-2650-1458",
+      "affiliation": "Department of Statistics, Faculty of Science, Hacettepe University"
     }
   ],
   "upload_type": "software",
   "access_right": "open",
   "license": "MIT",
+  "related_identifiers": [
+    {
+      "identifier": "arXiv:2609.33761",
+      "relation": "isSupplementTo",
+      "scheme": "arxiv",
+      "resource_type": "publication-preprint"
+    }
+  ],
   "keywords": [
     "GAN",
     "generative adversarial networks",
     "synthetic weather data",
     "time series generation",
-    "multi-discriminator",
+    "evaluation protocol",
+    "marginal calibration",
+    "quantile mapping",
+    "isotonic calibration",
     "ablation study",
-    "ERA5"
+    "ERA5",
+    "reproducibility"
   ]
 }

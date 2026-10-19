@@ -1,0 +1,34 @@
+{
+ "active_arms": [
+  "full_model",
+  "no_D_temporal",
+  "no_D_stat",
+  "no_D_sorted",
+  "no_calibration",
+  "fixed_lambda",
+  "moment_D_stat",
+  "rank_D_sort",
+  "no_aux_losses"
+ ],
+ "dropped": [],
+ "projected_hours": 54.53,
+ "full_scope_hours": 54.53,
+ "fits": true,
+ "n_runs": 275,
+ "per_arm_seconds": {
+  "full_model": 915.83,
+  "no_D_temporal": 639.9100000000001,
+  "no_D_stat": 334.28499999999997,
+  "no_D_sorted": 851.2900000000001,
+  "no_calibration": 894.1949999999999,
+  "fixed_lambda": 883.8100000000001,
+  "moment_D_stat": 347.72499999999997,
+  "rank_D_sort": 888.5450000000001,
+  "no_aux_losses": 978.9250000000001
+ },
+ "baseline_seconds": {
+  "rcgan": 34.4,
+  "timegan": 58.7
+ },
+ "gpu_hours_available": 60
+}

@@ -1,0 +1,58 @@
+{
+ "script": "scripts/figs_extra.py",
+ "script_sha256": "08667f1f18d5639c99383ec3a273257e3d88493a243e14839b2716bd4ce4ac32",
+ "inputs_sha256": {
+  "results/pct_change.csv": "73d7f260e3ae6d77115ce48c32d0a72bc245a38087efea70530dfa661041f8c4",
+  "results/abl_perseed.csv": "e1f7d089382a243cfc8d39f66c81e9e3125daef943760d7075b119447489fa96",
+  "results/bootstrap.csv": "29a35389acd5c3e0f3aff1ad6b83fbae3541be9c1d4cb64d47519b76f1079a43",
+  "results/run_noise.csv": "1680c5a4d0d51763ec71e1626329c6a2d6ec7ddb506a9715ffc69d2dc868bee5",
+  "results/seq_level.csv": "b20a104441e34b670c481b26897958be8e78d035a15959714c98330b51211203",
+  "protocol.yaml": "2d9a3b9d210df5b2b6104f6563eff583dd5642130ac863ff882b5f380b5aabd7",
+  "scripts/figures.py": "e9dab1d05aca14f38adbf8e525b5a93e3e3c055b24f47cf0aa0f92a992a47cf3"
+ },
+ "matplotlib": "3.11.2",
+ "changes": {
+  "fig2_a": [
+   "(a) Regime-dependent effect",
+   "(a) Per-location effect"
+  ],
+  "fig2_b": [
+   "(b) Quantile channel vs copula variant",
+   "(b) Removal vs rank-transform variant"
+  ],
+  "fig2_rank": [
+   "rank (copula) variant",
+   "rank-transform variant"
+  ],
+  "fig2_wspace": [
+   null,
+   0.35
+  ],
+  "fig4_a": [
+   "(a) Seasonal diversity: SD of per-sequence means",
+   "(a) Between-sequence spread: SD of per-sequence means"
+  ],
+  "fig4_unit": [
+   "C",
+   "K"
+  ]
+ },
+ "check_vs_frozen_png": {
+  "fig2_dsort_mechanism_check.png": {
+   "same_shape": false,
+   "max_abs_diff": null,
+   "frac_pixels_diff": null
+  },
+  "fig4_variance_decomposition_check.png": {
+   "same_shape": false,
+   "max_abs_diff": null,
+   "frac_pixels_diff": null
+  }
+ },
+ "outputs_sha256": {
+  "figures/fig2_dsort_mechanism_pf.pdf": "c1729e1354a76891f2202928a43d971fe009153442a6d4599a407160cdd3d633",
+  "figures/fig2_dsort_mechanism_pf.png": "26fb5a59bc8dc3d52123f06962a2f66500f90fc82be8c4e66d1f35659d29bea1",
+  "figures/fig4_variance_decomposition_pf.pdf": "4013fa7b79551fc3da95d6e23c5cf255007c76029238dd4ab5b38fd43b4db7ea",
+  "figures/fig4_variance_decomposition_pf.png": "041c278b4f8b1227718d5b1463ee61135ca92485ce30216099ebaa0cc58cb2ec"
+ }
+}

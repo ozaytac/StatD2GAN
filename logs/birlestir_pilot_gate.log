@@ -1,0 +1,1 @@
+{'pct': 96.15866278992749, 'positive_seeds': 5, 'n_seeds': 5, 'passed': True, 'rule': 'Dubai: (mean tau-MAE of no_D_sorted / mean tau-MAE of full_model - 1) >= 0.20 AND the paired per-seed difference (no_D_sorted - full_model) is positive in at least 4 of 5 seeds.'}
