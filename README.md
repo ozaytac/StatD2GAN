@@ -10,13 +10,13 @@ make env          # optional: .venv with pinned packages (WITH_TORCH=1 adds torc
 make all          # verify + tables + paper; CPU, about a minute; no weights, no training
 ```
 
-The v3.0.0 campaign (275 runs: 9 arms x 5 ERA5 locations x 5 seeds, plus RCGAN and TimeGAN
+The frozen campaign (275 runs: 9 arms x 5 ERA5 locations x 5 seeds, plus RCGAN and TimeGAN
 re-implementations x 25) was frozen before any result was seen (protocol sha256
 `2d9a3b9d210df5b2...`, `MANIFEST.json`). This release (v2.0.0 of the repository) changes none of it: it adds a
-post-freeze reporting layer, a one-command build and the generator weights. The labels v3.0.0 (frozen
-campaign) and v3.1.0 (post-freeze layer) are internal development versions and appear in file headers and
-manifests; the public release number is v2.0.0. The v3.0.0 README is kept unchanged as
-`frozen_meta/README.md`; it describes the frozen campaign pipeline (`make frozen-<target>`).
+post-freeze reporting layer, a one-command build and the generator weights. The release number is v2.0.0;
+the labels v3.0.0 (frozen campaign) and v3.1.0 (post-freeze layer) that appear in file headers and manifests
+are internal development labels, not release numbers. The original README of the frozen campaign is kept
+unchanged as `frozen_meta/README.md`; it describes the frozen campaign pipeline (`make frozen-<target>`).
 
 ## First commands after `git clone`
 
@@ -52,7 +52,7 @@ Nothing writes to a frozen file; every target works in `build/` or fills files t
 ## Layers
 
 ```
-frozen v3.0.0 (MANIFEST.json, never modified)            post-freeze (MANIFEST_post_freeze.json)
+frozen campaign (MANIFEST.json, never modified)          post-freeze (MANIFEST_post_freeze.json)
   protocol.yaml, protocol.lock, Makefile, src/, scripts/   scripts/{report,fig1,figs,table_seq,table_pilot,distance}_extra.py, post_freeze.py
   results/*.csv, results/decisions.json                    results_extra/distance_cal_train.csv
   generated/numbers.tex, generated/tables.tex              generated/numbers_extra.tex, tables_pf.tex, table_dist_pf.tex
@@ -60,7 +60,7 @@ frozen v3.0.0 (MANIFEST.json, never modified)            post-freeze (MANIFEST_p
   runs/**/*.json, runs/_env/, logs/                        paper/main.tex, tools/, GNUmakefile, weights_manifest.json
   runs/**/*.pt (Zenodo archives, make fetch-weights)       requirements-*.txt, .github/workflows/ci.yml
   data/raw/*.csv, data/raw.sha256                          README.md, CITATION.cff, .zenodo.json (superseded;
-                                                           v3.0.0 originals in frozen_meta/)
+                                                           frozen originals in frozen_meta/)
 ```
 
 Every number in the paper comes from `generated/numbers.tex`, `generated/tables.tex` (frozen) or
@@ -70,7 +70,7 @@ seeds and frozen code (no training), and `scripts/report_extra.py` reads its out
 
 ## Devices and versions
 
-* Training (v3.0.0 campaign): torch 2.11.0+cu128, CUDA 12.8, Python 3.13.15, NVIDIA RTX PRO 6000
+* Training (frozen campaign): torch 2.11.0+cu128, CUDA 12.8, Python 3.13.15, NVIDIA RTX PRO 6000
   Blackwell (run environment record `runs/_env/584162a1e69e.json`; `requirements-frozen-env.txt`).
 * Distance recomputation (`make distance`, Appendix B): torch 2.11.0+cu130, CUDA 13.0, same GPU
   model. Every one of the 250 calibrated runs reproduced the stored raw and calibrated KS with a

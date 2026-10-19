@@ -21,7 +21,7 @@
     "figures/fig4_variance_decomposition_pf.pdf": "cd3e38ff5cc99962e7feef98ebe6fceb5b96159d0979d7236a5425a69371ef9f",
     "figures/fig4_variance_decomposition_pf.png": "041c278b4f8b1227718d5b1463ee61135ca92485ce30216099ebaa0cc58cb2ec",
     "figures/figs_extra_record.json": "ab57f46a9eee4b0c0f08f5fd02507e856107e32f43494fdfa417411fb95653e8",
-    "paper/main.tex": "5c80ea33a6e4604c40cfc05b21609320e2752ad9f2a678123fe5db8e6175cbf9",
+    "paper/main.tex": "22b5877fdfa93c0cc2d8a9a0d8e68b87b9265b5338d4363deb13d7c750c41301",
     "requirements-frozen-env.txt": "cc94ba58994087cb99e464d1c00902149aed66c4df74bd6aa41534d7ea0a6b70",
     "requirements-postfreeze.txt": "8b0e6ace1299a605d77ff1208c1d8c7351cbef7dbc61f6f7bbf175f06a69e1b7",
     "scripts/figs_extra.py": "08667f1f18d5639c99383ec3a273257e3d88493a243e14839b2716bd4ce4ac32",
@@ -41,14 +41,14 @@
     "weights_manifest.json": "117915603852cddeca2fadd1b1320ddd75027c76f2ade2516d4cc2c2c37882a4",
     ".zenodo.json": "19a26f1506df35b1e743a4c4178637a6d24f48e5cf75288e83780632c8bd5ae6",
     "CITATION.cff": "9f2cc9fe5bf0772ace449501f1713bea9d371a469a206e98bec7717be7faa5a0",
-    "README.md": "3c2277b9e01cac5502a9b9a2f52b84d9ac770e3e0b4930cec468f418e43d5cce",
+    "README.md": "89adc0df90b27569e38308d2db1d37920c0cf8d48f31f03aac3d1d53a68fec92",
     "frozen_meta/.zenodo.json": "f4e567305d787316c9a25a0da58c46ab37653e0476fc1b7d59cf7b22a8f079e0",
     "frozen_meta/CITATION.cff": "4f13162236df6a3a79587ffcb0da47187d25069f155eb36c03ba3c077c5e8838",
     "frozen_meta/README.md": "21842edf263766ba73d278410b138cc5a59b369330083ca880f7c3d83a1aff91",
     "scripts/table_pilot_extra.py": "2e9a4ad0d278af63d458cb68577537bfdd8c35a062091af026d84a954f10cb89"
   },
   "frozen_manifest_sha256": "2c60b9e0befe70b87736d5e41f2294767da93cc14158a00e15f8da7ad88fe0d0",
-  "updated_utc": "2026-10-19T18:52:04+00:00",
+  "updated_utc": "2026-10-19T19:45:38+00:00",
   "scope_note_distance_extra": "scripts/distance_extra.py is the one post-freeze step that re-runs inference: it reloads the frozen generator weights (runs/*/*.pt), redraws with the frozen seeds and refits calibration through unchanged frozen src/ code, then gates every run against the frozen run JSON (|KS - JSON| <= 1e-4). No training. Its output results_extra/distance_cal_train.csv is registered only after all gates pass.",
   "superseded": {
     ".zenodo.json": {
@@ -64,7 +64,7 @@
     "README.md": {
       "frozen_sha256": "21842edf263766ba73d278410b138cc5a59b369330083ca880f7c3d83a1aff91",
       "kept_at": "frozen_meta/README.md",
-      "replaced_by_sha256": "3c2277b9e01cac5502a9b9a2f52b84d9ac770e3e0b4930cec468f418e43d5cce"
+      "replaced_by_sha256": "89adc0df90b27569e38308d2db1d37920c0cf8d48f31f03aac3d1d53a68fec92"
     }
   },
   "superseded_note": "Repository metadata replaced at the root after the freeze (GitHub and Zenodo read it there). The frozen originals are kept byte-identical under frozen_meta/; the code, protocol and results are unaffected.",
